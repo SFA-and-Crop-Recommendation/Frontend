@@ -5,7 +5,7 @@ import Navbar from '../Components/Navbar'
 const Home = () => {
   return (
     <div 
-    style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh', filter:'grayscale(100%)'}}
+    style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh', filter:'grayscale(0%)'}}
     className="flex flex-col"
     >
       <Navbar />

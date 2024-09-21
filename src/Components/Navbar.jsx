@@ -1,6 +1,6 @@
 // src/components/Navbar.js
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,21 +14,21 @@ const Navbar = () => {
             </div>
             <div className="hidden w-10/12 md:flex">
               <div className="ml-10 flex items-center justify-end gap-8 w-full">
-                <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
+                <Link to='/' className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
                   Home
-                </a>
-                <a href="/recommendation" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
+                </Link>
+                <Link to='/recommendation' className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
                   Crop Recommandation
-                </a>
-                <a href="/priceprediction" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
+                </Link>
+                <Link to='/priceprediction' className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
                   Crop Price Prediction
-                </a>
-                <a href="/livepriceprediction" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
+                </Link>
+                <Link to='/livepriceprediction' className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
                   Live Crop Price
-                </a>
-                <a href="/aboutus" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
+                </Link>
+                <Link to='/aboutus' className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
                   About Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -57,21 +57,21 @@ const Navbar = () => {
 
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`} id="mobile-menu">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-            Home
-          </a>
-          <a href="/recommendation" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-            Crop Recommandation
-          </a>
-          <a href="/priceprediction" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-            Crop Price Prediction
-          </a>
-          <a href="/livepriceprediction" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-            Live Crop Price
-          </a>
-          <a href="/aboutus" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-            About Us
-          </a>
+        <Link to='/' className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+          Home
+        </Link>
+        <Link to='/recommendation' className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+          Crop Recommandation
+        </Link>
+        <Link to='/priceprediction' className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+          Crop Price Prediction
+        </Link>
+        <Link to='/livepriceprediction' className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+          Live Crop Price
+        </Link>
+        <Link to='/aboutus' className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+          About Us
+        </Link>
         </div>
       </div>
     </nav>
