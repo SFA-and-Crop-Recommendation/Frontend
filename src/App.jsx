@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from "./Pages/Home";
 import CorpRecommandation from "./Pages/CorpRecommandation";
 import PricePrediction from "./Pages/PricePrediction";
-import LivePricePrediction from "./Pages/LivePricePrediction";
+import LivePrice from "./Pages/LivePrice";
 import AboutUs from "./Pages/AboutUs";
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/recommendation' element={<CorpRecommandation />} />
         <Route path='/priceprediction' element={<PricePrediction />} />
-        <Route path='/livepriceprediction' element={<LivePricePrediction />} />
+        <Route path='/livepriceprediction' element={<LivePrice />} />
         <Route path='/aboutus' element={<AboutUs />} />
       </Routes>
     </BrowserRouter>
