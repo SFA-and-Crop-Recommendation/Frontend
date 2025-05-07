@@ -1,7 +1,9 @@
 import React from 'react';
 import Navbar from './../Components/Navbar';
 import Footer from '../Components/Footer';
-import Nimai from '../assets/Nimai.jpg'
+import Nimai from '../assets/Nimai.png'
+import Nejarul from '../assets/Nejarul.jpeg'
+import Surojit from '../assets/Surojit.jpeg'
 import TeamMemberCard from '../Components/TeamMemberCard';
 
 const AboutUs = () => {
@@ -10,13 +12,13 @@ const AboutUs = () => {
       name: "Nejarul Islam",
       rollNo: "T91/CSE/216010",
       responsibility: "Machine Learning & Model Training",
-      image: "/images/avatar1.jpg"
+      image: Nejarul
     },
     {
       name: "Surojit Das",
-      rollNo: "CS2021002",
+      rollNo: "T91/CSE/216021",
       responsibility: "Machine Learning & Model Training",
-      image: "/images/avatar2.jpg"
+      image: Surojit
     },
     {
       name: "Nimai Barman",
