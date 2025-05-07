@@ -13,6 +13,7 @@ import {
   Legend
 } from 'chart.js';
 import TitleCard from '../Components/TitleCard';
+import axios from 'axios';
 
 ChartJS.register(
   CategoryScale,
@@ -25,74 +26,131 @@ ChartJS.register(
 );
 
 const LivePricePrediction = () => {
+  const [data, setData] = useState({});
   const [crop, setCrop] = useState('');
-  const [month, setMonth] = useState('');
-  const [year, setYear] = useState('');
+  const [selectedState, setSelectedState] = useState('');
+  const [selectedDistrict, setSelectedDistrict] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [predictionData, setPredictionData] = useState(null);
+
+  const [districts, setDistricts] = useState([]);
+
   const [cropOptions, setCropOptions] = useState([
     'Wheat', 'Rice', 'Maize', 'Soybean', 'Cotton',
     'Sugarcane', 'Potato', 'Tomato', 'Onion', 'Chilli'
   ]);
 
-  // Generate month and year options
-  const months = [
-    'January', 'February', 'March', 'April', 'May', 'June',
-    'July', 'August', 'September', 'October', 'November', 'December'
-  ];
+  
 
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
   const years = Array.from({ length: 2 }, (_, i) => currentYear + i);
 
-  useEffect(() => {
-    // Set default month and year to current
-    const currentMonth = months[currentDate.getMonth()];
-    setMonth(currentMonth);
-    setYear(currentYear.toString());
-  }, []);
 
-  const handleSubmit = (e) => {
+  // Load Dropdown data
+  useEffect(() => {
+      fetch('/nested_filters.json')
+          .then(res => res.json())
+          .then(json => setData(json.states))
+          .catch(err => console.error("Error loading filters:", err));
+  }, []);
+  
+  // When state changes, update districts
+  useEffect(() => {
+      if (selectedState && data[selectedState]) {
+          const newDistricts = Object.keys(data[selectedState].districts);
+          setDistricts(newDistricts);
+          setSelectedDistrict('');
+      }
+  }, [selectedState, data]);
+
+  // Form Submit handler function
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
 
-    // Simulate API call with mock data
-    setTimeout(() => {
-      const mockData = generateMockData(crop, month, year);
-      setPredictionData(mockData);
+    try {
+      const result = await axios.post('http://localhost:3000/future-price', {
+        "crop": crop,
+        filters: {
+          "filters[State]": selectedState,
+          "filters[District]": selectedDistrict
+        }
+      });
+
+      console.log("Result:", result);
+
+      if (result.data.success) {
+        // Process the data for the chart
+        const chartData = processPredictionData(result.data.predictions);
+        setPredictionData(chartData);
+      }
+    } catch (error) {
+      console.log("Error While fetching future price prediction data.");
+      console.log("Error:", error.message);
+    } finally {
       setIsLoading(false);
-    }, 1500);
+    }
   };
 
-  const generateMockData = (crop, baseMonth, baseYear) => {
-    const baseMonthIndex = months.indexOf(baseMonth);
-    const basePrice = Math.floor(Math.random() * 5000) + 1000; // Random base price
+  const processPredictionData = (predictions) => {
+    // Get last 6 months of data (assuming data is sorted by date)
+    const lastSixMonthsData = predictions.slice(-6 * 3); // Assuming 3 entries per month
 
+    // Group data by month and calculate averages
+    const monthlyData = {};
+
+    lastSixMonthsData.forEach(item => {
+      const date = new Date(item.date);
+      const monthYear = `${date.getFullYear()}-${date.getMonth() + 1}`;
+
+      if (!monthlyData[monthYear]) {
+        monthlyData[monthYear] = {
+          dates: [],
+          actualPrices: [],
+          predictedPrices: []
+        };
+      }
+
+      monthlyData[monthYear].dates.push(item.date);
+      monthlyData[monthYear].actualPrices.push(item.actual_price);
+      monthlyData[monthYear].predictedPrices.push(item.predicted_price);
+    });
+
+    // Calculate averages and prepare chart data
     const labels = [];
-    const data = [];
+    const actualData = [];
+    const predictedData = [];
 
-    // Generate 12 months data starting from selected month/year
-    for (let i = 0; i < 12; i++) {
-      const monthIndex = (baseMonthIndex + i) % 12;
-      const year = baseYear + Math.floor((baseMonthIndex + i) / 12);
-      labels.push(`${months[monthIndex]} ${year}`);
+    Object.keys(monthlyData).forEach(month => {
+      const data = monthlyData[month];
+      const avgActual = data.actualPrices.reduce((a, b) => a + b, 0) / data.actualPrices.length;
+      const avgPredicted = data.predictedPrices.reduce((a, b) => a + b, 0) / data.predictedPrices.length;
 
-      // Generate price with some variation
-      const variation = Math.sin(i * 0.5) * 0.3 + (Math.random() * 0.2 - 0.1);
-      const price = basePrice * (1 + variation);
-      data.push(Math.round(price));
-    }
+      // Use the first date of the month as label
+      labels.push(new Date(data.dates[0]).toLocaleDateString('en-US', { month: 'short', year: 'numeric' }));
+      actualData.push(avgActual);
+      predictedData.push(avgPredicted);
+    });
 
     return {
       labels,
-      datasets: [{
-        label: `Predicted Price for ${crop} (₹/Quintal)`,
-        data,
-        borderColor: '#10b981',
-        backgroundColor: 'rgba(16, 185, 129, 0.1)',
-        tension: 0.3,
-        fill: true
-      }]
+      datasets: [
+        {
+          label: 'Actual Price',
+          data: actualData,
+          borderColor: 'rgb(75, 192, 192)',
+          backgroundColor: 'rgba(75, 192, 192, 0.5)',
+          tension: 0.1
+        },
+        {
+          label: 'Predicted Price',
+          data: predictedData,
+          borderColor: 'rgb(255, 99, 132)',
+          backgroundColor: 'rgba(255, 99, 132, 0.5)',
+          tension: 0.1
+        }
+      ]
     };
   };
 
@@ -105,18 +163,35 @@ const LivePricePrediction = () => {
       tooltip: {
         callbacks: {
           label: (context) => {
-            return `₹${context.raw.toLocaleString('en-IN')}/Quintal`;
+            return `${context.dataset.label}: ₹${context.raw.toFixed(2)}/Quintal`;
           }
+        }
+      },
+      title: {
+        display: true,
+        text: 'Last 6 Months Price Trend',
+        font: {
+          size: 16
         }
       }
     },
     scales: {
       y: {
         beginAtZero: false,
+        title: {
+          display: true,
+          text: 'Price (₹/Quintal)'
+        },
         ticks: {
           callback: (value) => {
             return `₹${value.toLocaleString('en-IN')}`;
           }
+        }
+      },
+      x: {
+        title: {
+          display: true,
+          text: 'Month'
         }
       }
     }
@@ -139,6 +214,47 @@ const LivePricePrediction = () => {
 
             <form onSubmit={handleSubmit}>
               <div className="space-y-6">
+                {/* State Dropdown */}
+                <div>
+                  <label htmlFor="state" className="block text-gray-700 font-medium mb-2">
+                    State
+                  </label>
+                  <select
+                    id="state"
+                    value={selectedState}
+                    onChange={e => setSelectedState(e.target.value)}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                  >
+                    <option value="">Select State</option>
+                    {Object.keys(data).map(state => (
+                      <option key={state} value={state}>
+                        {state}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                {/* District Dropdown */}
+                <div>
+                  <label htmlFor="district" className="block text-gray-700 font-medium mb-2">
+                    District
+                  </label>
+                  <select
+                    id="district"
+                    value={selectedDistrict}
+                    onChange={e => setSelectedDistrict(e.target.value)}
+                    disabled={!districts.length}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 disabled:opacity-50"
+                  >
+                    <option value="">Select District</option>
+                    {districts.map(district => (
+                      <option key={district} value={district}>
+                        {district}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
                 <div>
                   <label htmlFor="crop" className="block text-gray-700 font-medium mb-2">
                     Crop Name
@@ -157,39 +273,6 @@ const LivePricePrediction = () => {
                   </select>
                 </div>
 
-                <div>
-                  <label htmlFor="month" className="block text-gray-700 font-medium mb-2">
-                    Starting Month
-                  </label>
-                  <select
-                    id="month"
-                    value={month}
-                    onChange={(e) => setMonth(e.target.value)}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
-                    required
-                  >
-                    {months.map((m) => (
-                      <option key={m} value={m}>{m}</option>
-                    ))}
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="year" className="block text-gray-700 font-medium mb-2">
-                    Starting Year
-                  </label>
-                  <select
-                    id="year"
-                    value={year}
-                    onChange={(e) => setYear(e.target.value)}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
-                    required
-                  >
-                    {years.map((y) => (
-                      <option key={y} value={y}>{y}</option>
-                    ))}
-                  </select>
-                </div>
               </div>
 
               <div className="mt-8">
@@ -226,6 +309,16 @@ const LivePricePrediction = () => {
               </div>
             ) : predictionData ? (
               <div>
+                <div className="mb-6 p-4 bg-green-50 rounded-lg">
+                  <h3 className="font-bold text-lg text-gray-800 mb-2">Latest Prediction</h3>
+                  <p className="text-gray-700">
+                    Predicted price for {predictionData.labels[predictionData.labels.length - 1]}:
+                    <span className="font-bold ml-2">
+                      ₹{predictionData.datasets[1].data[predictionData.datasets[1].data.length - 1].toFixed(2)}/Quintal
+                    </span>
+                  </p>
+                </div>
+
                 <div className="h-80">
                   <Line data={predictionData} options={options} />
                 </div>
@@ -235,7 +328,7 @@ const LivePricePrediction = () => {
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-blue-500 mr-2">•</span>
-                      Prices typically peak around {months[Math.floor(Math.random() * 12)]} for this crop
+                      Current predicted price trend is {predictionData.datasets[1].data.slice(-1)[0] > predictionData.datasets[1].data.slice(-2)[0] ? 'rising' : 'falling'}
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-500 mr-2">•</span>
@@ -253,11 +346,12 @@ const LivePricePrediction = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto text-gray-300 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
-                <p>Select a crop and date to view price predictions</p>
-                <p className="text-sm mt-2">We'll show you 12 months of price trends from your selected date</p>
+                <p>Select a crop and location to view price predictions</p>
+                <p className="text-sm mt-2">We'll show you the price trends for the last 6 months</p>
               </div>
             )}
           </div>
+          
         </div>
       </main>
 
