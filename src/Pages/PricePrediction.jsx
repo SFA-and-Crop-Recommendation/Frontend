@@ -27,20 +27,17 @@ ChartJS.register(
 
 const LivePricePrediction = () => {
   const [data, setData] = useState({});
-  const [crop, setCrop] = useState('');
+  const [selectedCommodity, setSelectedCommodity] = useState('');
   const [selectedState, setSelectedState] = useState('');
   const [selectedDistrict, setSelectedDistrict] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [predictionData, setPredictionData] = useState(null);
+  const [selectedMarket, setSelectedMarket] = useState('');
+  
 
   const [districts, setDistricts] = useState([]);
-
-  const [cropOptions, setCropOptions] = useState([
-    'Wheat', 'Rice', 'Maize', 'Soybean', 'Cotton',
-    'Sugarcane', 'Potato', 'Tomato', 'Onion', 'Chilli'
-  ]);
-
-  
+  const [markets, setMarkets] = useState([]);
+  const [commodities, setCommodities] = useState([]);
 
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
@@ -64,6 +61,30 @@ const LivePricePrediction = () => {
       }
   }, [selectedState, data]);
 
+  // When district changes, update markets
+  useEffect(() => {
+      if (selectedState && selectedDistrict && data[selectedState]?.districts[selectedDistrict]) {
+          const newMarkets = Object.keys(
+              data[selectedState].districts[selectedDistrict].markets
+          );
+          setMarkets(newMarkets);
+          setSelectedMarket('');
+          setCommodities([]);
+          setSelectedCommodity('');
+      }
+  }, [selectedDistrict, selectedState, data]);
+
+
+  // When market changes, update commodities
+  useEffect(() => {
+      if (selectedState && selectedDistrict && selectedMarket) {
+          const newCommodities =
+              data[selectedState]?.districts[selectedDistrict]?.markets[selectedMarket] || [];
+          setCommodities(newCommodities);
+          setSelectedCommodity('');
+      }
+  }, [selectedMarket, selectedState, selectedDistrict, data]);
+
   // Form Submit handler function
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -71,11 +92,8 @@ const LivePricePrediction = () => {
 
     try {
       const result = await axios.post('http://localhost:3000/future-price', {
-        "crop": crop,
-        filters: {
-          "filters[State]": selectedState,
-          "filters[District]": selectedDistrict
-        }
+        "crop": selectedCommodity,
+        "market": selectedMarket
       });
 
       console.log("Result:", result);
@@ -255,20 +273,44 @@ const LivePricePrediction = () => {
                   </select>
                 </div>
 
+                {/* Market Dropdown */}
                 <div>
-                  <label htmlFor="crop" className="block text-gray-700 font-medium mb-2">
-                    Crop Name
+                  <label htmlFor="market" className="block text-gray-700 font-medium mb-2">
+                    Market
                   </label>
                   <select
-                    id="crop"
-                    value={crop}
-                    onChange={(e) => setCrop(e.target.value)}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
-                    required
+                    id="market"
+                    value={selectedMarket}
+                    onChange={e => setSelectedMarket(e.target.value)}
+                    disabled={!markets.length}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 disabled:opacity-50"
                   >
-                    <option value="">Select a crop</option>
-                    {cropOptions.map((crop) => (
-                      <option key={crop} value={crop}>{crop}</option>
+                    <option value="">Select Market</option>
+                    {markets.map(market => (
+                      <option key={market} value={market}>
+                        {market}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                {/* Commodity Dropdown */}
+                <div>
+                  <label htmlFor="commodity" className="block text-gray-700 font-medium mb-2">
+                    Select Crop
+                  </label>
+                  <select
+                    id="commodity"
+                    value={selectedCommodity}
+                    onChange={e => setSelectedCommodity(e.target.value)}
+                    disabled={!commodities.length}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 disabled:opacity-50"
+                  >
+                    <option value="">Select Commodity</option>
+                    {commodities.map(commodity => (
+                      <option key={commodity} value={commodity}>
+                        {commodity}
+                      </option>
                     ))}
                   </select>
                 </div>
@@ -304,7 +346,7 @@ const LivePricePrediction = () => {
             {isLoading ? (
               <div className="flex items-center justify-center py-12">
                 <div className="animate-pulse text-gray-500">
-                  Analyzing market trends for {crop}...
+                  Analyzing market trends for {selectedCommodity}...
                 </div>
               </div>
             ) : predictionData ? (
