@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import { Line } from 'react-chartjs-2';
@@ -33,62 +33,58 @@ const LivePricePrediction = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [predictionData, setPredictionData] = useState(null);
   const [selectedMarket, setSelectedMarket] = useState('');
-  
+  const [error, setError] = useState(null);
 
   const [districts, setDistricts] = useState([]);
   const [markets, setMarkets] = useState([]);
   const [commodities, setCommodities] = useState([]);
 
-  const currentDate = new Date();
-  const currentYear = currentDate.getFullYear();
-  const years = Array.from({ length: 2 }, (_, i) => currentYear + i);
-
-
   // Load Dropdown data
   useEffect(() => {
-      fetch('/nested_filters.json')
-          .then(res => res.json())
-          .then(json => setData(json.states))
-          .catch(err => console.error("Error loading filters:", err));
+    fetch('/nested_filters.json')
+      .then(res => res.json())
+      .then(json => setData(json.states))
+      .catch(err => console.error("Error loading filters:", err));
   }, []);
-  
+
   // When state changes, update districts
   useEffect(() => {
-      if (selectedState && data[selectedState]) {
-          const newDistricts = Object.keys(data[selectedState].districts);
-          setDistricts(newDistricts);
-          setSelectedDistrict('');
-      }
+    if (selectedState && data[selectedState]) {
+      const newDistricts = Object.keys(data[selectedState].districts);
+      setDistricts(newDistricts);
+      setSelectedDistrict('');
+    }
   }, [selectedState, data]);
 
   // When district changes, update markets
   useEffect(() => {
-      if (selectedState && selectedDistrict && data[selectedState]?.districts[selectedDistrict]) {
-          const newMarkets = Object.keys(
-              data[selectedState].districts[selectedDistrict].markets
-          );
-          setMarkets(newMarkets);
-          setSelectedMarket('');
-          setCommodities([]);
-          setSelectedCommodity('');
-      }
+    if (selectedState && selectedDistrict && data[selectedState]?.districts[selectedDistrict]) {
+      const newMarkets = Object.keys(
+        data[selectedState].districts[selectedDistrict].markets
+      );
+      setMarkets(newMarkets);
+      setSelectedMarket('');
+      setCommodities([]);
+      setSelectedCommodity('');
+    }
   }, [selectedDistrict, selectedState, data]);
-
 
   // When market changes, update commodities
   useEffect(() => {
-      if (selectedState && selectedDistrict && selectedMarket) {
-          const newCommodities =
-              data[selectedState]?.districts[selectedDistrict]?.markets[selectedMarket] || [];
-          setCommodities(newCommodities);
-          setSelectedCommodity('');
-      }
+    if (selectedState && selectedDistrict && selectedMarket) {
+      const newCommodities =
+        data[selectedState]?.districts[selectedDistrict]?.markets[selectedMarket] || [];
+      setCommodities(newCommodities);
+      setSelectedCommodity('');
+    }
   }, [selectedMarket, selectedState, selectedDistrict, data]);
 
   // Form Submit handler function
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
+    setError(null);
+    setPredictionData(null);
 
     try {
       const result = await axios.post('http://localhost:3000/future-price', {
@@ -96,74 +92,50 @@ const LivePricePrediction = () => {
         "market": selectedMarket
       });
 
-      console.log("Result:", result);
+      if (result.data.Success === false) {
+        setError(`Forecusting is not available for ${selectedCommodity} in ${selectedMarket}.`);
+        return;
+      }
 
-      if (result.data.success) {
+      if (result.data) {
         // Process the data for the chart
-        const chartData = processPredictionData(result.data.predictions);
+        const chartData = processPredictionData(result.data);
         setPredictionData(chartData);
       }
     } catch (error) {
       console.log("Error While fetching future price prediction data.");
       console.log("Error:", error.message);
+      setError(error.response?.data?.error || 'Failed to fetch prediction data. Please try again.');
     } finally {
       setIsLoading(false);
     }
   };
 
-  const processPredictionData = (predictions) => {
-    // Get last 6 months of data (assuming data is sorted by date)
-    const lastSixMonthsData = predictions.slice(-6 * 3); // Assuming 3 entries per month
+  const processPredictionData = (apiData) => {
+    // Convert the API response object into an array of {date, price} objects
+    const predictions = Object.entries(apiData).map(([date, price]) => ({
+      date,
+      price
+    }));
 
-    // Group data by month and calculate averages
-    const monthlyData = {};
+    // Sort by date
+    predictions.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-    lastSixMonthsData.forEach(item => {
+    // Format dates for display (Month Year)
+    const labels = predictions.map(item => {
       const date = new Date(item.date);
-      const monthYear = `${date.getFullYear()}-${date.getMonth() + 1}`;
-
-      if (!monthlyData[monthYear]) {
-        monthlyData[monthYear] = {
-          dates: [],
-          actualPrices: [],
-          predictedPrices: []
-        };
-      }
-
-      monthlyData[monthYear].dates.push(item.date);
-      monthlyData[monthYear].actualPrices.push(item.actual_price);
-      monthlyData[monthYear].predictedPrices.push(item.predicted_price);
+      return date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
     });
 
-    // Calculate averages and prepare chart data
-    const labels = [];
-    const actualData = [];
-    const predictedData = [];
-
-    Object.keys(monthlyData).forEach(month => {
-      const data = monthlyData[month];
-      const avgActual = data.actualPrices.reduce((a, b) => a + b, 0) / data.actualPrices.length;
-      const avgPredicted = data.predictedPrices.reduce((a, b) => a + b, 0) / data.predictedPrices.length;
-
-      // Use the first date of the month as label
-      labels.push(new Date(data.dates[0]).toLocaleDateString('en-US', { month: 'short', year: 'numeric' }));
-      actualData.push(avgActual);
-      predictedData.push(avgPredicted);
-    });
+    // Extract prices
+    const prices = predictions.map(item => item.price);
 
     return {
       labels,
       datasets: [
         {
-          label: 'Actual Price',
-          data: actualData,
-          borderColor: 'rgb(75, 192, 192)',
-          backgroundColor: 'rgba(75, 192, 192, 0.5)',
-          tension: 0.1
-        },
-        {
           label: 'Predicted Price',
-          data: predictedData,
+          data: prices,
           borderColor: 'rgb(255, 99, 132)',
           backgroundColor: 'rgba(255, 99, 132, 0.5)',
           tension: 0.1
@@ -187,7 +159,7 @@ const LivePricePrediction = () => {
       },
       title: {
         display: true,
-        text: 'Last 6 Months Price Trend',
+        text: '6-Month Price Prediction',
         font: {
           size: 16
         }
@@ -220,7 +192,7 @@ const LivePricePrediction = () => {
       <Navbar />
 
       <main className="flex-grow max-w-6xl mx-auto px-5 py-8 w-full flex flex-col items-center">
-        <TitleCard 
+        <TitleCard
           title={"Future Price Prediction of Crop"}
           text={"Get future price trends for your crops to plan your harvest and sales"}
         />
@@ -349,6 +321,25 @@ const LivePricePrediction = () => {
                   Analyzing market trends for {selectedCommodity}...
                 </div>
               </div>
+            ) : error ? (
+              <div className="text-center py-12">
+                <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-6">
+                  <div className="flex">
+                    <div className="flex-shrink-0">
+                      <svg className="h-5 w-5 text-red-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div className="ml-3">
+                      <h2 className="text-sm font-medium text-red-800">Prediction Error</h2>
+                      <div className="mt-2 text-sm text-red-700">
+                        <h3>{error}</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p className="text-gray-500">Please try a different crop or market combination</p>
+              </div>
             ) : predictionData ? (
               <div>
                 <div className="mb-6 p-4 bg-green-50 rounded-lg">
@@ -356,7 +347,7 @@ const LivePricePrediction = () => {
                   <p className="text-gray-700">
                     Predicted price for {predictionData.labels[predictionData.labels.length - 1]}:
                     <span className="font-bold ml-2">
-                      ₹{predictionData.datasets[1].data[predictionData.datasets[1].data.length - 1].toFixed(2)}/Quintal
+                      ₹{predictionData.datasets[0].data[predictionData.datasets[0].data.length - 1].toFixed(2)}/Quintal
                     </span>
                   </p>
                 </div>
@@ -370,7 +361,12 @@ const LivePricePrediction = () => {
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-blue-500 mr-2">•</span>
-                      Current predicted price trend is {predictionData.datasets[1].data.slice(-1)[0] > predictionData.datasets[1].data.slice(-2)[0] ? 'rising' : 'falling'}
+                      Current predicted price trend is {
+                        predictionData.datasets[0].data.length > 1 &&
+                          predictionData.datasets[0].data.slice(-1)[0] > predictionData.datasets[0].data.slice(-2)[0]
+                          ? 'rising'
+                          : 'falling'
+                      }
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-500 mr-2">•</span>
@@ -389,11 +385,10 @@ const LivePricePrediction = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
                 <p>Select a crop and location to view price predictions</p>
-                <p className="text-sm mt-2">We'll show you the price trends for the last 6 months</p>
+                <p className="text-sm mt-2">We'll show you the predicted prices for the next 6 months</p>
               </div>
             )}
           </div>
-          
         </div>
       </main>
 

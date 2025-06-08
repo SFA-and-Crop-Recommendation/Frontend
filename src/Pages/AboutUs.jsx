@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from './../Components/Navbar';
 import Footer from '../Components/Footer';
 import Nimai from '../assets/Nimai.png'
@@ -99,7 +98,7 @@ const AboutUs = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-2">•</span>
-                  <strong>Backend:</strong> Python, Django
+                  <strong>Backend:</strong> Python, Node.js
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-2">•</span>

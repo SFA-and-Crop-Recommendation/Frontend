@@ -6177,6 +6177,39 @@
             ]
           }
         },
+        "Kolkata": {
+          "markets": {
+            "Bara Bazar (Posta Bazar)": [
+              "Garlic",
+              "Ginger(Dry)",
+              "Onion",
+              "Potato"
+            ],
+            "Mechua": [
+              "Apple",
+              "Banana",
+              "Mango",
+              "Mousambi(Sweet Lime)",
+              "Orange",
+              "Pomegranate"
+            ],
+            "Sealdah Koley Market": [
+              "Bhindi(Ladies Finger)",
+              "Bitter gourd",
+              "Brinjal",
+              "Cabbage",
+              "Capsicum",
+              "Carrot",
+              "Cucumbar(Kheera)",
+              "Green Chilli",
+              "Pointed gourd (Parval)",
+              "Rice",
+              "Ridgeguard(Tori)",
+              "Sweet Pumpkin",
+              "Tomato"
+            ]
+          }
+        },
         "Medinipur(W)": {
           "markets": {
             "Garbeta(Medinipur)": [

@@ -21,7 +21,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center justify-around">
             <Link
               to="/recommendation"
               className="text-gray-700 hover:text-green-600 px-3 py-2 text-lg font-medium transition-colors duration-300"
@@ -39,6 +39,12 @@ const Navbar = () => {
               className="text-gray-700 hover:text-green-600 px-3 py-2 text-lg font-medium transition-colors duration-300"
             >
               Live Prices
+            </Link>
+            <Link
+              to="/soiltype"
+              className="text-gray-700 hover:text-green-600 px-3 py-2 text-lg font-medium transition-colors duration-300"
+            >
+              Analyze Soil
             </Link>
             <Link
               to="/aboutus"
@@ -93,6 +99,13 @@ const Navbar = () => {
             onClick={() => setIsOpen(false)}
           >
             Live Prices
+          </Link>
+          <Link
+            to="/soiltype"
+            className="block px-3 py-3 text-lg font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-md transition-colors duration-300"
+            onClick={() => setIsOpen(false)}
+          >
+            Analyze Soil
           </Link>
           <Link
             to="/aboutus"

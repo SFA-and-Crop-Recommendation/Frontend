@@ -4,6 +4,7 @@ import CorpRecommandation from "./Pages/CorpRecommandation";
 import PricePrediction from "./Pages/PricePrediction";
 import LivePrice from "./Pages/LivePrice";
 import AboutUs from "./Pages/AboutUs";
+import SoilType from './Pages/SoilType';
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/recommendation' element={<CorpRecommandation />} />
         <Route path='/priceprediction' element={<PricePrediction />} />
         <Route path='/livepriceprediction' element={<LivePrice />} />
+        <Route path='/soiltype' element={<SoilType />} />
         <Route path='/aboutus' element={<AboutUs />} />
       </Routes>
     </BrowserRouter>
