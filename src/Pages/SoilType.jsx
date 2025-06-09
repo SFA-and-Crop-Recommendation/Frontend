@@ -172,8 +172,21 @@ function SoilType() {
                                 <div className="bg-blue-50 p-6 rounded-lg">
                                     <h3 className="text-xl font-semibold text-gray-800 mb-3">Soil Information</h3>
                                     <p className="text-gray-600">
+                                        {predictions.predicted_class === 'Alluvial_soil' &&
+                                            "Alluvial soil is fertile and found in river basins. It's ideal for crops like rice, wheat, sugarcane, and pulses."
+                                        }
+
+                                        {predictions.predicted_class === 'Black_soil' &&
+                                            "Black soil, also known as Regur soil, is moisture-retentive and rich in minerals. It is excellent for growing cotton, soybeans, and pulses."
+                                        }
+
+                                        {predictions.predicted_class === 'Clay_soil' &&
+                                            "Clay soil has fine particles and retains water well. It's suitable for crops like paddy (rice), which require standing water."
+                                        }
+
                                         {predictions.predicted_class === 'Lateritic_soil' &&
-                                            "Lateritic soil is rich in iron and aluminum, typically found in hot and wet tropical areas. It's good for crops that thrive in well-drained, acidic conditions."}
+                                            "Lateritic soil is rich in iron and aluminum, typically found in hot and wet tropical areas. It's good for crops that thrive in well-drained, acidic conditions."
+                                        }
                                     </p>
                                 </div>
                             </div>
