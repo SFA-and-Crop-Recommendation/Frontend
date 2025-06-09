@@ -15,14 +15,12 @@ const CropRecommendation = () => {
     rainfall: '',
   });
 
-  const [recommendation, setRecommendation] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [data, setData] = useState({});
   const [selectedState, setSelectedState] = useState('');
   const [selectedDistrict, setSelectedDistrict] = useState('');
-  const [apiResponse, setApiResponse] = useState([]);
+  const [apiResponse, setApiResponse] = useState(null);
   const [districts, setDistricts] = useState([]);
-  const [apiDebug, setApiDebug] = useState([]);
   const [inputParams, setInputParams] = useState(null);
 
   // Load Dropdown data
@@ -50,48 +48,52 @@ const CropRecommendation = () => {
     }));
   };
 
-  // Process API response
-  useEffect(() => {
-    if (apiResponse.length > 0) {
-      const sortedAndCapitalized = [...apiResponse]
-        .sort((a, b) => b.price - a.price)
-        .map(item => ({
-          ...item,
-          crop: item.crop.charAt(0).toUpperCase() + item.crop.slice(1),
-          status: item.price > 0 ? 'Available' : 'Not available'
-        }));
-      setRecommendation(sortedAndCapitalized);
-    }
-  }, [apiResponse]);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
+    setApiResponse(null);
 
-    const testParams = [
-      parseFloat(formData.nitrogen),
-      parseFloat(formData.phosphorus),
-      parseFloat(formData.potassium),
-      parseFloat(formData.temperature),
-      parseFloat(formData.humidity),
-      parseFloat(formData.ph),
-      parseFloat(formData.rainfall),
+    const new_sample = [
+      formData.nitrogen,
+      formData.phosphorus,
+      formData.potassium,
+      formData.temperature,
+      formData.humidity,
+      formData.ph,
+      formData.rainfall,
     ];
 
     try {
-      const response = await axios.post('http://localhost:3000/predict', {
-        testParams: testParams,
-        filters: {
-          "filters[State]": selectedState,
-          "filters[District]": selectedDistrict
-        }
+      const response = await axios.post('http://localhost:3000/recommandCrops', {
+        new_sample
       });
 
-      setApiResponse(response.data.predictions || []);
-      setApiDebug(response.data.debug || []);
-      setInputParams(response.data.input_params);
+      console.log("Response from API:", response.data);
+
+      // Handle both success and error responses
+      if (response.data.Success === false) {
+        setApiResponse({ error: response.data.error });
+      } else {
+        // Transform the API response into an array of crops
+        const crops = [];
+        for (const key in response.data) {
+          if (key.startsWith('crop')) {
+            crops.push(response.data[key]);
+          }
+        }
+        setApiResponse({ crops });
+      }
+
+      setInputParams({
+        filters: {
+          'filters[State]': selectedState,
+          'filters[District]': selectedDistrict
+        },
+        test_params: new_sample
+      });
     } catch (error) {
       console.error('Error:', error);
+      setApiResponse({ error: 'Failed to get recommendations. Please try again.' });
     } finally {
       setIsLoading(false);
     }
@@ -108,7 +110,7 @@ const CropRecommendation = () => {
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 w-full">
-          {/* Form Section - Reduced width */}
+          {/* Form Section */}
           <div className="lg:col-span-2 bg-white p-6 rounded-xl shadow-md">
             <h2 className="text-2xl font-semibold text-gray-800 mb-6">Enter Soil Details</h2>
 
@@ -213,7 +215,7 @@ const CropRecommendation = () => {
             </form>
           </div>
 
-          {/* Results Section - Increased width */}
+          {/* Results Section */}
           <div className="lg:col-span-3 bg-white p-6 rounded-xl shadow-md">
             <h2 className="text-2xl font-semibold text-gray-800 mb-6">Recommendation Results</h2>
 
@@ -228,7 +230,7 @@ const CropRecommendation = () => {
                 </div>
                 <p className="mt-4 text-gray-500">🌱 Analyzing soil for ideal crops, Please wait ...</p>
               </div>
-            ) : recommendation ? (
+            ) : apiResponse ? (
               <div className="space-y-6">
                 {/* Input Parameters Summary */}
                 {inputParams && (
@@ -260,48 +262,44 @@ const CropRecommendation = () => {
                   </div>
                 )}
 
-                {/* Crop Recommendations */}
-                <div className="space-y-4">
-                  <h3 className="font-semibold text-lg text-gray-800">Recommended Crops</h3>
-                  {recommendation.map((item, index) => (
-                    <div key={index} className={`p-4 rounded-lg border-l-4 ${index === 0 ? 'bg-green-50 border-green-500' : 'bg-gray-50 border-gray-300'}`}>
-                      <div className="flex justify-between items-center">
-                        <div className="flex items-center space-x-4">
-                          <div className={`w-10 h-10 rounded-full flex items-center justify-center ${index === 0 ? 'bg-green-100 text-green-600' : 'bg-gray-100 text-gray-600'}`}>
-                            <span className="font-medium">{index + 1}</span>
-                          </div>
-                          <div>
-                            <h3 className="font-bold text-gray-800">{item.crop}</h3>
-                            <p className={`text-sm ${item.price > 0 ? 'text-gray-600' : 'text-gray-500'}`}>
-                              {item.price > 0 ? `₹${item.price.toFixed(2)}` : 'Price data not available'}
-                            </p>
-                          </div>
-                        </div>
-                        {index === 0 && (
-                          <span className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
-                            Best Match
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+                {/* Error Message */}
+                {apiResponse.error && (
+                  <div className="p-4 bg-red-50 rounded-lg border-l-4 border-red-500">
+                    <h3 className="font-bold text-lg text-gray-800 mb-2">Recommendation Not Available</h3>
+                    <p className="text-gray-700">{apiResponse.error}</p>
+                  </div>
+                )}
 
-                {/* Debug Information (collapsible) */}
-                {/* {apiDebug.length > 0 && (
-                  <details className="mt-6 border rounded-lg overflow-hidden">
-                    <summary className="bg-gray-50 px-4 py-2 font-medium text-gray-700 cursor-pointer">
-                      Debug Information
-                    </summary>
-                    <div className="p-4 bg-white text-sm text-gray-600">
-                      <ul className="space-y-1">
-                        {apiDebug.map((msg, i) => (
-                          <li key={i} className="py-1 border-b border-gray-100 last:border-0">• {msg}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  </details>
-                )} */}
+                {/* Crop Recommendations */}
+                {apiResponse.crops && apiResponse.crops.length > 0 && (
+                  <div className="space-y-4">
+                    <h3 className="font-semibold text-lg text-gray-800">Recommended Crops</h3>
+                    {apiResponse.crops.map((crop, index) => (
+                      <div key={index} className={`p-4 rounded-lg border-l-4 ${index === 0 ? 'bg-green-50 border-green-500' : 'bg-gray-50 border-gray-300'}`}>
+                        <div className="flex justify-between items-center">
+                          <div className="flex items-center space-x-4">
+                            <div className={`w-10 h-10 rounded-full flex items-center justify-center ${index === 0 ? 'bg-green-100 text-green-600' : 'bg-gray-100 text-gray-600'}`}>
+                              <span className="font-medium">{index + 1}</span>
+                            </div>
+                            <div>
+                              <h3 className="font-bold text-gray-800">
+                                {crop.charAt(0).toUpperCase() + crop.slice(1)}
+                              </h3>
+                              <p className="text-sm text-gray-600">
+                                Recommended based on soil conditions
+                              </p>
+                            </div>
+                          </div>
+                          {index === 0 && (
+                            <span className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
+                              Best Match
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
 
                 {/* Farming Tips */}
                 <div className="mt-6 p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-500">

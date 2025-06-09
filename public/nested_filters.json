@@ -2,161 +2,17 @@
   "states": {
     "Andhra Pradesh": {
       "districts": {
-        "Chittor": {
-          "markets": {
-            "Punganur": [
-              "Tomato"
-            ],
-            "Chittoor": [
-              "Gur(Jaggery)"
-            ],
-            "Madanapalli": [
-              "Tomato"
-            ],
-            "Palamaner": [
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Cluster beans",
-              "Green Chilli",
-              "Potato",
-              "Ridgeguard(Tori)",
-              "Tomato"
-            ],
-            "Kalikiri": [
-              "Tomato"
-            ],
-            "Mulakalacheruvu": [
-              "Tomato"
-            ],
-            "Vayalapadu": [
-              "Tomato"
-            ]
-          }
-        },
-        "Cuddapah": {
-          "markets": {
-            "Cuddapah": [
-              "Groundnut"
-            ]
-          }
-        },
-        "East Godavari": {
-          "markets": {
-            "Ambajipeta": [
-              "Banana"
-            ],
-            "Ravulapelem": [
-              "Banana"
-            ],
-            "Rajahmundry": [
-              "Mango"
-            ]
-          }
-        },
-        "Guntur": {
-          "markets": {
-            "Pidugurala(Palnadu)": [
-              "Dry Chillies"
-            ],
-            "Tenali": [
-              "Black Gram (Urd Beans)(Whole)",
-              "Lemon"
-            ]
-          }
-        },
-        "Kurnool": {
-          "markets": {
-            "Adoni": [
-              "Castor Seed",
-              "Cotton",
-              "Groundnut"
-            ],
-            "Nandyal": [
-              "Jowar(Sorghum)",
-              "Maize",
-              "Paddy(Dhan)(Common)"
-            ]
-          }
-        },
         "Nellore": {
           "markets": {
-            "Rapur": [
-              "Groundnut",
-              "Paddy(Dhan)(Common)"
-            ],
             "Atmakur(SPS)": [
               "Cotton"
             ]
           }
         },
-        "Visakhapatnam": {
+        "Kurnool": {
           "markets": {
-            "Anakapally": [
-              "Gur(Jaggery)"
-            ]
-          }
-        },
-        "West Godavari": {
-          "markets": {
-            "Eluru": [
-              "Lemon"
-            ],
-            "Chintalapudi": [
-              "Lemon"
-            ]
-          }
-        },
-        "Anantapur": {
-          "markets": {
-            "Anantapur": [
-              "Mousambi(Sweet Lime)"
-            ]
-          }
-        },
-        "Krishna": {
-          "markets": {
-            "Mylavaram": [
-              "Maize"
-            ]
-          }
-        }
-      }
-    },
-    "Bihar": {
-      "districts": {
-        "Araria": {
-          "markets": {
-            "Forbesganj": [
-              "Potato"
-            ]
-          }
-        },
-        "Madhubani": {
-          "markets": {
-            "Jainagar": [
-              "Onion"
-            ]
-          }
-        },
-        "Rohtas": {
-          "markets": {
-            "Natwar": [
-              "Potato"
-            ]
-          }
-        },
-        "Banka": {
-          "markets": {
-            "Barahat": [
-              "Onion"
-            ]
-          }
-        },
-        "Bhojpur": {
-          "markets": {
-            "Aarah": [
-              "Potato"
+            "Yemmiganur": [
+              "Groundnut"
             ]
           }
         }
@@ -183,30 +39,81 @@
         }
       }
     },
-    "Goa": {
-      "districts": {
-        "North Goa": {
-          "markets": {
-            "Valpol": [
-              "Arecanut(Betelnut/Supari)"
-            ]
-          }
-        }
-      }
-    },
     "Gujarat": {
       "districts": {
+        "Ahmedabad": {
+          "markets": {
+            "Mandal": [
+              "Ajwan"
+            ]
+          }
+        },
+        "Dahod": {
+          "markets": {
+            "Dahod(Veg. Market)": [
+              "Bhindi(Ladies Finger)",
+              "Bitter gourd",
+              "Bottle gourd",
+              "Brinjal",
+              "Cabbage",
+              "Carrot",
+              "Cauliflower",
+              "Cluster beans",
+              "Coriander(Leaves)",
+              "Cowpea(Veg)",
+              "Cucumbar(Kheera)",
+              "Drumstick",
+              "French Beans (Frasbean)",
+              "Garlic",
+              "Ginger(Green)",
+              "Green Chilli",
+              "Lemon",
+              "Little gourd (Kundru)",
+              "Mint(Pudina)",
+              "Onion",
+              "Pointed gourd (Parval)",
+              "Potato",
+              "Pumpkin",
+              "Tinda",
+              "Tomato"
+            ]
+          }
+        },
+        "Gir Somnath": {
+          "markets": {
+            "Talalagir": [
+              "Bhindi(Ladies Finger)",
+              "Brinjal",
+              "Cabbage",
+              "Green Chilli",
+              "Mango",
+              "Tomato"
+            ]
+          }
+        },
+        "Rajkot": {
+          "markets": {
+            "Gondal(Veg.market Gondal)": [
+              "Apple",
+              "Bhindi(Ladies Finger)",
+              "Brinjal",
+              "Cabbage",
+              "Carrot",
+              "Cauliflower",
+              "Cucumbar(Kheera)",
+              "Green Chilli",
+              "Guar",
+              "Guava",
+              "Lemon",
+              "Mango",
+              "Papaya",
+              "Potato",
+              "Tomato"
+            ]
+          }
+        },
         "Amreli": {
           "markets": {
-            "Bagasara": [
-              "Arhar (Tur/Red Gram)(Whole)",
-              "Bengal Gram(Gram)(Whole)",
-              "Black Gram (Urd Beans)(Whole)",
-              "Corriander seed",
-              "Green Gram (Moong)(Whole)",
-              "Soyabean",
-              "Wheat"
-            ],
             "Damnagar": [
               "Bhindi(Ladies Finger)",
               "Brinjal",
@@ -221,446 +128,10 @@
             ]
           }
         },
-        "Banaskanth": {
-          "markets": {
-            "Deesa": [
-              "Bajra(Pearl Millet/Cumbu)",
-              "Castor Seed",
-              "Cummin Seed(Jeera)",
-              "Mustard",
-              "Rajgir",
-              "Suva (Dill Seed)",
-              "Tobacco",
-              "Wheat"
-            ],
-            "Dhanera": [
-              "Asalia",
-              "Bajra(Pearl Millet/Cumbu)",
-              "Castor Seed",
-              "Cummin Seed(Jeera)",
-              "Isabgul (Psyllium)",
-              "Methi Seeds",
-              "Mustard",
-              "Rajgir",
-              "Soanf",
-              "Suva (Dill Seed)",
-              "Taramira",
-              "Wheat"
-            ],
-            "Diyodar": [
-              "Bajra(Pearl Millet/Cumbu)",
-              "Castor Seed",
-              "Mustard",
-              "Wheat"
-            ]
-          }
-        },
-        "Bharuch": {
-          "markets": {
-            "Jambusar": [
-              "Arhar (Tur/Red Gram)(Whole)",
-              "Bajra(Pearl Millet/Cumbu)",
-              "Castor Seed",
-              "Cotton",
-              "Jowar(Sorghum)",
-              "Maize",
-              "Wheat"
-            ],
-            "Jambusar(Kaavi)": [
-              "Arhar (Tur/Red Gram)(Whole)",
-              "Bajra(Pearl Millet/Cumbu)",
-              "Castor Seed",
-              "Cotton",
-              "Jowar(Sorghum)",
-              "Maize"
-            ]
-          }
-        },
-        "Bhavnagar": {
-          "markets": {
-            "Taleja": [
-              "Arhar (Tur/Red Gram)(Whole)",
-              "Bajra(Pearl Millet/Cumbu)",
-              "Bengal Gram(Gram)(Whole)",
-              "Black Gram (Urd Beans)(Whole)",
-              "Castor Seed",
-              "Cotton",
-              "Green Gram (Moong)(Whole)",
-              "Groundnut",
-              "Jowar(Sorghum)",
-              "Sesamum(Sesame,Gingelly,Til)",
-              "Wheat"
-            ]
-          }
-        },
-        "Dahod": {
-          "markets": {
-            "Dahod": [
-              "Arhar (Tur/Red Gram)(Whole)",
-              "Bengal Gram(Gram)(Whole)",
-              "Castor Seed",
-              "Dry Chillies",
-              "Green Gram (Moong)(Whole)",
-              "Maize",
-              "Paddy(Dhan)(Common)",
-              "Rice",
-              "Soyabean",
-              "Wheat"
-            ],
-            "Davgadbaria(Piplod)": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Limkheda": [
-              "Maize",
-              "Wheat"
-            ],
-            "Devgadhbaria": [
-              "Paddy(Dhan)(Common)"
-            ]
-          }
-        },
-        "Gandhinagar": {
-          "markets": {
-            "Dehgam": [
-              "Bajra(Pearl Millet/Cumbu)",
-              "Castor Seed",
-              "Guar",
-              "Paddy(Dhan)(Common)",
-              "Wheat"
-            ],
-            "Mansa(Manas Veg Yard)": [
-              "Bhindi(Ladies Finger)",
-              "Bottle gourd",
-              "Cabbage",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Guar",
-              "Lemon",
-              "Mango",
-              "Ridgeguard(Tori)",
-              "Tomato"
-            ],
-            "Dehgam(Rekhiyal)": [
-              "Bajra(Pearl Millet/Cumbu)",
-              "Castor Seed",
-              "Guar",
-              "Paddy(Dhan)(Common)",
-              "Wheat"
-            ]
-          }
-        },
-        "Gir Somnath": {
-          "markets": {
-            "Veraval": [
-              "Bengal Gram(Gram)(Whole)",
-              "Black Gram (Urd Beans)(Whole)",
-              "Green Gram (Moong)(Whole)",
-              "Groundnut",
-              "Methi Seeds",
-              "Wheat"
-            ]
-          }
-        },
-        "Junagarh": {
-          "markets": {
-            "Mangrol": [
-              "Bengal Gram(Gram)(Whole)",
-              "Wheat"
-            ],
-            "Bhesan": [
-              "Bengal Gram(Gram)(Whole)",
-              "Cotton",
-              "Soyabean",
-              "Wheat"
-            ]
-          }
-        },
-        "Morbi": {
-          "markets": {
-            "Halvad": [
-              "Ajwan",
-              "Bengal Gram(Gram)(Whole)",
-              "Castor Seed",
-              "Corriander seed",
-              "Groundnut",
-              "Methi Seeds",
-              "Mustard",
-              "Sesamum(Sesame,Gingelly,Til)",
-              "Soanf",
-              "Wheat"
-            ]
-          }
-        },
-        "Porbandar": {
-          "markets": {
-            "Porbandar": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Black Gram (Urd Beans)(Whole)",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Coriander(Leaves)",
-              "Cummin Seed(Jeera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Green Gram (Moong)(Whole)",
-              "Ground Nut Seed",
-              "Groundnut",
-              "Guar",
-              "Kabuli Chana(Chickpeas-White)",
-              "Kulthi(Horse Gram)",
-              "Lemon",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Potato",
-              "Tomato",
-              "Water Melon",
-              "Wheat"
-            ]
-          }
-        },
-        "Rajkot": {
-          "markets": {
-            "Dhoraji": [
-              "Arhar (Tur/Red Gram)(Whole)",
-              "Bengal Gram(Gram)(Whole)",
-              "Black Gram (Urd Beans)(Whole)",
-              "Castor Seed",
-              "Groundnut",
-              "Soyabean",
-              "Wheat"
-            ],
-            "Gondal(Veg.market Gondal)": [
-              "Apple",
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Guar",
-              "Lemon",
-              "Mango",
-              "Potato",
-              "Tomato"
-            ],
-            "Jetpur(Dist.Rajkot)": [
-              "Arhar (Tur/Red Gram)(Whole)",
-              "Bengal Gram(Gram)(Whole)",
-              "Corriander seed",
-              "Cotton",
-              "Garlic",
-              "Groundnut",
-              "Sesamum(Sesame,Gingelly,Til)",
-              "Wheat"
-            ],
-            "Rajkot(Veg.Sub Yard)": [
-              "Bhindi(Ladies Finger)",
-              "Bottle gourd",
-              "Brinjal",
-              "Cluster beans",
-              "Coriander(Leaves)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Lemon",
-              "Onion",
-              "Potato",
-              "Tomato"
-            ],
-            "Upleta": [
-              "Arhar (Tur/Red Gram)(Whole)",
-              "Cummin Seed(Jeera)",
-              "Green Gram (Moong)(Whole)",
-              "Ground Nut Seed",
-              "Groundnut",
-              "Soyabean",
-              "Wheat"
-            ]
-          }
-        },
-        "Surat": {
-          "markets": {
-            "Bardoli(Katod)": [
-              "Bhindi(Ladies Finger)",
-              "Brinjal"
-            ],
-            "Mahuva(Anaval)": [
-              "Mango",
-              "Pointed gourd (Parval)"
-            ],
-            "Surat": [
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Cluster beans",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Elephant Yam (Suran)",
-              "French Beans (Frasbean)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Groundnut pods (raw)",
-              "Indian Beans (Seam)",
-              "Lemon",
-              "Little gourd (Kundru)",
-              "Mango (Raw-Ripe)",
-              "Onion",
-              "Papaya (Raw)",
-              "Peas cod",
-              "Pegeon Pea (Arhar Fali)",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Pumpkin",
-              "Ridgeguard(Tori)"
-            ]
-          }
-        },
-        "Surendranagar": {
-          "markets": {
-            "Dasada Patadi": [
-              "Ajwan",
-              "Castor Seed",
-              "Cummin Seed(Jeera)",
-              "Isabgul (Psyllium)",
-              "Kulthi(Horse Gram)"
-            ],
-            "Vadhvan": [
-              "Apple",
-              "Banana - Green",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Elephant Yam (Suran)",
-              "Garlic",
-              "Green Chilli",
-              "Guar",
-              "Lemon",
-              "Mango",
-              "Mango (Raw-Ripe)",
-              "Methi(Leaves)",
-              "Onion Green",
-              "Peas Wet",
-              "Potato",
-              "Spinach",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Vadodara(Baroda)": {
-          "markets": {
-            "Padra": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Cluster beans",
-              "Coriander(Leaves)",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Leafy Vegetable",
-              "Lemon",
-              "Little gourd (Kundru)",
-              "Mango (Raw-Ripe)",
-              "Onion",
-              "Pegeon Pea (Arhar Fali)",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Spinach",
-              "Sponge gourd",
-              "Tomato"
-            ]
-          }
-        },
-        "Valsad": {
-          "markets": {
-            "Pardi": [
-              "Mango"
-            ],
-            "Pardi(Vapi)": [
-              "Mango"
-            ],
-            "Pardi(Ugvada)": [
-              "Mango"
-            ],
-            "Chikli(Khorgam)": [
-              "Bottle gourd",
-              "Pointed gourd (Parval)",
-              "Tinda"
-            ],
-            "Pardi(Motavagachiya)": [
-              "Mango"
-            ],
-            "Pardi(Rohinee)": [
-              "Mango"
-            ]
-          }
-        },
-        "Mehsana": {
-          "markets": {
-            "Unava": [
-              "Castor Seed"
-            ]
-          }
-        },
         "Narmada": {
           "markets": {
             "Rajpipla": [
               "Banana"
-            ]
-          }
-        },
-        "Sabarkantha": {
-          "markets": {
-            "Himatnagar": [
-              "Castor Seed",
-              "Wheat"
-            ],
-            "Khedbrahma": [
-              "Maize",
-              "Mustard",
-              "Wheat"
-            ],
-            "Vadali": [
-              "Castor Seed",
-              "Mustard",
-              "Wheat"
-            ]
-          }
-        },
-        "Anand": {
-          "markets": {
-            "Umreth": [
-              "Bajra(Pearl Millet/Cumbu)"
             ]
           }
         }
@@ -668,59 +139,36 @@
     },
     "Haryana": {
       "districts": {
-        "Ambala": {
+        "Bhiwani": {
           "markets": {
-            "Naraingarh": [
+            "Bhiwani": [
               "Apple",
-              "Banana - Green",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
+              "Banana",
               "Bottle gourd",
-              "Brinjal",
               "Cabbage",
-              "Capsicum",
               "Cauliflower",
-              "Chikoos(Sapota)",
-              "Colacasia",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Ginger(Dry)",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
               "Mousambi(Sweet Lime)",
               "Onion",
-              "Peas Wet",
+              "Pomegranate",
               "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Ridgeguard(Tori)",
-              "Spinach",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
+              "Tomato"
             ]
           }
         },
         "Faridabad": {
           "markets": {
-            "Ballabhgarh": [
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
+            "Faridabad": [
+              "Apple",
               "Bottle gourd",
               "Brinjal",
               "Cabbage",
-              "Capsicum",
               "Cucumbar(Kheera)",
-              "Green Chilli",
               "Karbuja(Musk Melon)",
-              "Long Melon(Kakri)",
-              "Onion",
-              "Pumpkin",
-              "Tinda",
-              "Tomato"
+              "Litchi",
+              "Mango",
+              "Peach",
+              "Plum",
+              "Water Melon"
             ]
           }
         },
@@ -740,26 +188,13 @@
               "Potato",
               "Tomato",
               "Water Melon"
-            ],
-            "Sohna": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Long Melon(Kakri)",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Ridgeguard(Tori)",
-              "Spinach",
-              "Tomato"
             ]
           }
         },
         "Hissar": {
           "markets": {
             "Hansi": [
+              "Apple",
               "Bhindi(Ladies Finger)",
               "Bitter gourd",
               "Bottle gourd",
@@ -769,6 +204,7 @@
               "Cauliflower",
               "Chikoos(Sapota)",
               "Cucumbar(Kheera)",
+              "Grapes",
               "Lemon",
               "Mango",
               "Mousambi(Sweet Lime)",
@@ -780,390 +216,52 @@
               "Ridgeguard(Tori)",
               "Spinach",
               "Tomato"
-            ],
-            "Uklana": [
-              "Apple",
-              "Bhindi(Ladies Finger)",
-              "Bottle gourd",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Lemon",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Potato",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Jhajar": {
-          "markets": {
-            "Bahadurgarh": [
-              "Brinjal",
-              "Onion",
-              "Peas cod",
-              "Potato",
-              "Tomato"
-            ]
-          }
-        },
-        "Jind": {
-          "markets": {
-            "Narwana": [
-              "Apple",
-              "Banana",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Cabbage",
-              "Chikoos(Sapota)",
-              "Cucumbar(Kheera)",
-              "Karbuja(Musk Melon)",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Potato",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Kaithal": {
-          "markets": {
-            "Dhand": [
-              "Apple",
-              "Banana",
-              "Onion",
-              "Potato",
-              "Tomato"
-            ]
-          }
-        },
-        "Kurukshetra": {
-          "markets": {
-            "Ladwa": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Capsicum",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Colacasia",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Dry)",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Orange",
-              "Peach",
-              "Peas Wet",
-              "Pineapple",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Spinach",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Pipli": [
-              "Onion"
-            ],
-            "Babain": [
-              "Onion"
-            ],
-            "Pehowa": [
-              "Bottle gourd",
-              "Lemon",
-              "Potato"
-            ]
-          }
-        },
-        "Mahendragarh-Narnaul": {
-          "markets": {
-            "Mohindergarh": [
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Cluster beans",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Long Melon(Kakri)",
-              "Mango",
-              "Mango (Raw-Ripe)",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Pumpkin",
-              "Ridgeguard(Tori)",
-              "Spinach",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Narnaul": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Cluster beans",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Long Melon(Kakri)",
-              "Mango",
-              "Mango (Raw-Ripe)",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Pointed gourd (Parval)",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Spinach",
-              "Tender Coconut",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
             ]
           }
         },
         "Mewat": {
           "markets": {
-            "FerozpurZirkha(Nagina)": [
-              "Bottle gourd",
-              "Brinjal",
-              "Cucumbar(Kheera)",
-              "Potato",
-              "Tomato"
-            ],
             "Punhana": [
-              "Chikoos(Sapota)",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Potato",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Palwal": {
-          "markets": {
-            "Hassanpur": [
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Tomato"
-            ]
-          }
-        },
-        "Panchkula": {
-          "markets": {
-            "New Grain Market , Panchkula": [
-              "Apple",
-              "Potato",
-              "Tomato"
-            ]
-          }
-        },
-        "Rewari": {
-          "markets": {
-            "Kosli": [
-              "Banana",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cucumbar(Kheera)",
-              "Potato",
-              "Tomato"
-            ],
-            "Rewari": [
-              "Apple",
-              "Banana",
               "Onion",
               "Potato",
               "Tomato"
-            ]
-          }
-        },
-        "Rohtak": {
-          "markets": {
-            "Meham": [
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bottle gourd",
-              "Cabbage",
-              "Capsicum",
-              "Colacasia",
-              "Cucumbar(Kheera)",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Spinach",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Sampla": [
-              "Apple",
-              "Banana",
-              "Grapes",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Potato",
-              "Tomato"
-            ]
-          }
-        },
-        "Sirsa": {
-          "markets": {
-            "kalanwali": [
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Cucumbar(Kheera)",
-              "Onion",
-              "Potato",
-              "Water Melon"
-            ],
-            "Sirsa": [
-              "Apple",
-              "Brinjal",
-              "Cabbage",
-              "Chikoos(Sapota)",
-              "Cucumbar(Kheera)",
-              "Grapes",
-              "Mango",
-              "Onion",
-              "Potato",
-              "Tomato"
-            ],
-            "Dabwali": [
-              "Mustard"
             ]
           }
         },
         "Sonipat": {
           "markets": {
-            "Gohana": [
-              "Apple",
-              "Banana - Green",
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Chikoos(Sapota)",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Orange",
-              "Potato",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Yamuna Nagar": {
-          "markets": {
-            "Chhachrauli": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Capsicum",
-              "Cucumbar(Kheera)",
-              "Ginger(Dry)",
-              "Green Chilli",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Ridgeguard(Tori)",
-              "Tinda",
-              "Water Melon"
-            ],
-            "Mustafabad": [
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Capsicum",
-              "Potato",
-              "Pumpkin",
-              "Tomato"
-            ],
-            "Radaur": [
+            "Ganaur": [
               "Banana",
               "Bhindi(Ladies Finger)",
-              "Bitter gourd",
               "Bottle gourd",
               "Brinjal",
               "Cabbage",
               "Capsicum",
+              "Cauliflower",
               "Cucumbar(Kheera)",
-              "Grapes",
+              "Garlic",
+              "Ginger(Green)",
               "Green Chilli",
-              "Karbuja(Musk Melon)",
               "Lemon",
               "Mango",
+              "Mango (Raw-Ripe)",
               "Mousambi(Sweet Lime)",
               "Onion",
               "Peas Wet",
               "Potato",
               "Pumpkin",
-              "Raddish",
+              "Ridgeguard(Tori)",
+              "Spinach",
               "Tomato",
-              "Water Melon"
+              "Water Melon",
+              "Yam (Ratalu)"
             ]
           }
         },
-        "Panipat": {
+        "Kaithal": {
           "markets": {
-            "Panipat": [
-              "Apple",
-              "Banana",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Chikoos(Sapota)",
-              "Cucumbar(Kheera)",
-              "Mango",
-              "Onion",
-              "Pomegranate",
-              "Potato",
-              "Tomato"
+            "Cheeka": [
+              "Potato"
             ]
           }
         }
@@ -1171,282 +269,17 @@
     },
     "Himachal Pradesh": {
       "districts": {
-        "Bilaspur": {
-          "markets": {
-            "Bilaspur": [
-              "Banana",
-              "Bottle gourd",
-              "Capsicum",
-              "Cauliflower",
-              "Lemon",
-              "Papaya",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Tomato"
-            ]
-          }
-        },
-        "Chamba": {
-          "markets": {
-            "Chamba": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Grapes",
-              "Green Chilli",
-              "Lemon",
-              "Onion",
-              "Pomegranate",
-              "Potato",
-              "Sponge gourd",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Hamirpur": {
-          "markets": {
-            "Hamirpur(Nadaun)": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
-              "Guava",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Onion",
-              "Peas Wet",
-              "Potato",
-              "Squash(Chappal Kadoo)",
-              "Tomato"
-            ]
-          }
-        },
-        "Kangra": {
-          "markets": {
-            "Dharamshala": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Green Chilli",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Pomegranate",
-              "Potato",
-              "Tomato"
-            ],
-            "Kangra": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Colacasia",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Guava",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Orange",
-              "Papaya",
-              "Peas cod",
-              "Pineapple",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Sponge gourd",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Kangra(Baijnath)": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Colacasia",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Guava",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Orange",
-              "Papaya",
-              "Peas Wet",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Spinach",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Kangra(Jaisinghpur)": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower",
-              "Colacasia",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Guava",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Mashrooms",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Peas Wet",
-              "Pineapple",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Sponge gourd",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Kangra(Nagrota Bagwan)": [
-              "Apple",
-              "Banana",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Capsicum",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Guava",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Pineapple",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Spinach",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Palampur": [
-              "Apple",
-              "Banana",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Colacasia",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Guava",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Mashrooms",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Peas Wet",
-              "Pineapple",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Spinach",
-              "Sponge gourd",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
         "Kullu": {
           "markets": {
+            "Bandrol": [
+              "Apricot(Jardalu/Khumani)",
+              "Cauliflower",
+              "French Beans (Frasbean)",
+              "Garlic",
+              "Peach",
+              "Peas Wet",
+              "Plum"
+            ],
             "Bhuntar": [
               "Apricot(Jardalu/Khumani)",
               "Banana",
@@ -1469,7 +302,9 @@
               "Mango (Raw-Ripe)",
               "Onion",
               "Papaya",
+              "Peach",
               "Peas Wet",
+              "Plum",
               "Potato",
               "Pumpkin",
               "Raddish",
@@ -1477,106 +312,42 @@
               "Squash(Chappal Kadoo)",
               "Tomato",
               "Water Melon"
-            ],
-            "Kullu(Chauri Bihal)": [
-              "Cauliflower",
-              "Peas Wet"
             ]
           }
         },
         "Mandi": {
           "markets": {
-            "Dhanotu (Mandi)": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Colacasia",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Orange",
-              "Papaya",
-              "Peas cod",
-              "Pomegranate",
+            "Mandi(Takoli)": [
               "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Spinach",
-              "Sponge gourd",
-              "Squash(Chappal Kadoo)",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Mandi(Mandi)": [
-              "Apple",
-              "Apricot(Jardalu/Khumani)",
-              "Banana",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Guava",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Mashrooms",
-              "Onion",
-              "Orange",
-              "Papaya",
-              "Peas cod",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Spinach",
-              "Squash(Chappal Kadoo)",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Shimla": {
-          "markets": {
-            "Shimla and Kinnaur(Rampur)": [
-              "Cabbage",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Leafy Vegetable",
-              "Peas Wet",
-              "Potato",
-              "Raddish"
+              "Tomato"
             ]
           }
         },
         "Sirmore": {
           "markets": {
+            "Nahan": [
+              "Apple",
+              "Banana",
+              "Bhindi(Ladies Finger)",
+              "Bitter gourd",
+              "Bottle gourd",
+              "Brinjal",
+              "Cabbage",
+              "Capsicum",
+              "Carrot",
+              "Coriander(Leaves)",
+              "Cucumbar(Kheera)",
+              "French Beans (Frasbean)",
+              "Green Chilli",
+              "Lemon",
+              "Mango",
+              "Onion",
+              "Papaya",
+              "Potato",
+              "Pumpkin",
+              "Tomato",
+              "Water Melon"
+            ],
             "Paonta Sahib": [
               "Apple",
               "Banana",
@@ -1594,278 +365,14 @@
               "Grapes",
               "Green Chilli",
               "Lemon",
-              "Mango",
-              "Onion",
-              "Peas Wet",
-              "Potato",
-              "Pumpkin",
-              "Spinach",
-              "Sponge gourd",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Solan": {
-          "markets": {
-            "Solan": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Colacasia",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Guava",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Mashrooms",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Peas cod",
-              "Pineapple",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Spinach",
-              "Sponge gourd",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Solan(Nalagarh)": [
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Onion",
-              "Peas cod",
-              "Potato",
-              "Pumpkin",
-              "Sponge gourd",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Una": {
-          "markets": {
-            "Santoshgarh": [
-              "Apple",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Guava",
-              "Karbuja(Musk Melon)",
-              "Lemon",
+              "Litchi",
               "Mango",
               "Onion",
               "Papaya",
-              "Peas Wet",
-              "Pomegranate",
               "Potato",
               "Pumpkin",
-              "Spinach",
               "Tomato",
               "Water Melon"
-            ]
-          }
-        }
-      }
-    },
-    "Jammu and Kashmir": {
-      "districts": {
-        "Anantnag": {
-          "markets": {
-            "Ashahipora (Anantnagh)": [
-              "Bottle gourd",
-              "Karbuja(Musk Melon)",
-              "Mango",
-              "Raddish",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Kulgam": [
-              "Cucumbar(Kheera)",
-              "Grapes",
-              "Water Melon"
-            ]
-          }
-        },
-        "Jammu": {
-          "markets": {
-            "Batote": [
-              "Apple",
-              "Banana",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cucumbar(Kheera)",
-              "Knool Khol",
-              "Onion",
-              "Pomegranate",
-              "Potato",
-              "Raddish",
-              "Tomato"
-            ],
-            "Narwal Jammu (F&V)": [
-              "Banana"
-            ]
-          }
-        },
-        "Kathua": {
-          "markets": {
-            "Kathua": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Indian Beans (Seam)",
-              "Karbuja(Musk Melon)",
-              "Knool Khol",
-              "Lemon",
-              "Mango",
-              "Mashrooms",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Peas Wet",
-              "Pineapple",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Round gourd",
-              "Spinach",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Rajouri": {
-          "markets": {
-            "Rajouri (F&V)": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Grapes",
-              "Karbuja(Musk Melon)",
-              "Knool Khol",
-              "Onion",
-              "Papaya",
-              "Potato",
-              "Round gourd",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        }
-      }
-    },
-    "Karnataka": {
-      "districts": {
-        "Bangalore": {
-          "markets": {
-            "Ramanagara": [
-              "Ashgourd",
-              "Beans",
-              "Beetroot",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Chilly Capsicum",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Green Chilli",
-              "Knool Khol",
-              "Peas Wet",
-              "Raddish",
-              "Ridgeguard(Tori)",
-              "Seemebadnekai",
-              "Snakeguard",
-              "Sweet Pumpkin",
-              "Thondekai",
-              "Tomato"
-            ]
-          }
-        },
-        "Mangalore(Dakshin Kannad)": {
-          "markets": {
-            "Belthangdi": [
-              "Arecanut(Betelnut/Supari)",
-              "Cashewnuts"
-            ]
-          }
-        },
-        "Chamrajnagar": {
-          "markets": {
-            "Chamaraj Nagar": [
-              "Beans",
-              "Beetroot",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Knool Khol",
-              "Raddish",
-              "Ridgeguard(Tori)",
-              "Tomato"
             ]
           }
         }
@@ -1875,81 +382,6 @@
       "districts": {
         "Alappuzha": {
           "markets": {
-            "Chengannur": [
-              "Amphophalus",
-              "Ashgourd",
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Cluster beans",
-              "Coconut",
-              "Colacasia",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Lemon",
-              "Mango (Raw-Ripe)",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Snakeguard",
-              "Tomato"
-            ],
-            "Cherthala": [
-              "Amaranthus",
-              "Ashgourd",
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Long Melon(Kakri)",
-              "Onion",
-              "Potato",
-              "Ridgeguard(Tori)",
-              "Snakeguard"
-            ],
-            "Harippad": [
-              "Amaranthus",
-              "Amphophalus",
-              "Ashgourd",
-              "Banana",
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Colacasia",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Lemon",
-              "Mango",
-              "Onion",
-              "Pineapple"
-            ],
             "Kayamkulam": [
               "Amaranthus",
               "Amphophalus",
@@ -1979,130 +411,11 @@
         },
         "Ernakulam": {
           "markets": {
-            "Aluva": [
-              "Amaranthus",
-              "Ashgourd",
-              "Banana",
-              "Banana - Green",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Colacasia",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Elephant Yam (Suran)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Little gourd (Kundru)",
-              "Mango (Raw-Ripe)",
-              "Onion",
-              "Pineapple",
-              "Potato",
-              "Pumpkin",
-              "Snakeguard",
-              "Tapioca",
-              "Tomato"
-            ],
-            "Kadungallur  VFPCK": [
-              "Banana"
-            ],
             "Koovapadi VFPCK": [
               "Ashgourd",
               "Banana",
               "Papaya",
               "Pineapple"
-            ],
-            "Malayattoor  VFPCK": [
-              "Banana"
-            ],
-            "Moovattupuzha": [
-              "Banana",
-              "Coconut Seed",
-              "Pineapple",
-              "Tapioca"
-            ],
-            "North Paravur": [
-              "Alsandikai",
-              "Amaranthus",
-              "Amla(Nelli Kai)",
-              "Amphophalus",
-              "Ashgourd",
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Black pepper",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Coconut",
-              "Colacasia",
-              "Coriander(Leaves)",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Indian Beans (Seam)",
-              "Lemon",
-              "Little gourd (Kundru)",
-              "Mango (Raw-Ripe)",
-              "Mint(Pudina)",
-              "Onion",
-              "Pineapple",
-              "Potato",
-              "Pumpkin",
-              "Ridgeguard(Tori)",
-              "Snakeguard",
-              "Sweet Potato",
-              "Tapioca",
-              "Tomato"
-            ],
-            "Perumbavoor": [
-              "Amaranthus",
-              "Arecanut(Betelnut/Supari)",
-              "Ashgourd",
-              "Banana",
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Black pepper",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Coconut Seed",
-              "Colacasia",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Elephant Yam (Suran)",
-              "Field Pea",
-              "Ginger(Dry)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Indian Beans (Seam)",
-              "Lemon",
-              "Little gourd (Kundru)",
-              "Mango (Raw-Ripe)",
-              "Onion",
-              "Pineapple",
-              "Potato",
-              "Pumpkin",
-              "Snakeguard",
-              "Tapioca",
-              "Tomato"
             ],
             "Piravam": [
               "Amaranthus",
@@ -2143,14 +456,16 @@
               "Tapioca",
               "Tomato",
               "Water Melon"
-            ],
-            "Thrippunithura": [
-              "Amphophalus",
+            ]
+          }
+        },
+        "Idukki": {
+          "markets": {
+            "Vandiperiyar": [
+              "Apple",
               "Ashgourd",
               "Banana",
-              "Banana - Green",
               "Beetroot",
-              "Bhindi(Ladies Finger)",
               "Bitter gourd",
               "Bottle gourd",
               "Brinjal",
@@ -2158,89 +473,33 @@
               "Capsicum",
               "Carrot",
               "Cauliflower",
-              "Cluster beans",
-              "Colacasia",
-              "Cowpea(Veg)",
               "Cucumbar(Kheera)",
-              "Drumstick",
+              "Garlic",
               "Ginger(Green)",
               "Green Chilli",
-              "Indian Beans (Seam)",
-              "Leafy Vegetable",
-              "Lemon",
-              "Little gourd (Kundru)",
-              "Mango (Raw-Ripe)",
               "Onion",
-              "Pineapple",
               "Potato",
               "Pumpkin",
-              "Snakeguard",
               "Tapioca",
               "Tomato"
             ],
-            "Puthenvelikkara  VFPCK": [
-              "Banana - Green"
-            ],
-            "Ernakulam": [
-              "Amaranthus",
-              "Amphophalus",
-              "Ashgourd",
-              "Banana",
-              "Cucumbar(Kheera)",
-              "Tapioca",
-              "Tomato"
-            ]
-          }
-        },
-        "Idukki": {
-          "markets": {
-            "Adimali": [
-              "Amaranthus",
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Carrot",
-              "Cluster beans",
-              "Coconut",
-              "Colacasia",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Green Chilli",
-              "Pumpkin",
-              "Snakeguard",
-              "Tomato"
+            "Thompramkudi VFPCK": [
+              "Banana"
             ]
           }
         },
         "Kannur": {
           "markets": {
-            "Koodali  VFPCK": [
-              "Banana"
-            ],
-            "Mattannur  VFPCK": [
-              "Ridgeguard(Tori)"
-            ],
-            "Payyannur": [
-              "Amaranthus",
-              "Arecanut(Betelnut/Supari)",
-              "Ashgourd",
+            "Thalasserry": [
               "Banana",
+              "Bhindi(Ladies Finger)",
               "Black pepper",
-              "Coconut Seed",
-              "Copra",
-              "Cucumbar(Kheera)",
-              "Pumpkin",
-              "Tapioca"
-            ],
-            "Taliparamba": [
-              "Banana",
-              "Brinjal",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
+              "Carrot",
+              "Coconut Oil",
+              "Cowpea(Veg)",
               "Onion",
               "Potato",
+              "Snakeguard",
               "Tomato"
             ],
             "Kannur": [
@@ -2252,9 +511,6 @@
               "Cowpea(Veg)",
               "Cucumbar(Kheera)",
               "Onion"
-            ],
-            "Pattiyam  VFPCK": [
-              "Banana - Green"
             ]
           }
         },
@@ -2266,6 +522,7 @@
               "Banana",
               "Beetroot",
               "Bhindi(Ladies Finger)",
+              "Bitter gourd",
               "Bottle gourd",
               "Brinjal",
               "Cabbage",
@@ -2284,149 +541,14 @@
               "Snakeguard",
               "Tapioca",
               "Tomato"
-            ]
-          }
-        },
-        "Kottayam": {
-          "markets": {
-            "Athirampuzha": [
-              "Ashgourd",
-              "Banana",
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Coconut",
-              "Colacasia",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Lemon",
-              "Little gourd (Kundru)",
-              "Mango (Raw-Ripe)",
-              "Onion",
-              "Pineapple",
-              "Potato",
-              "Pumpkin",
-              "Snakeguard",
-              "Tomato"
             ],
-            "Avarma  VFPCK": [
-              "Banana",
-              "Cowpea(Veg)"
-            ],
-            "Ettumanoor": [
-              "Ashgourd",
-              "Banana",
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cluster beans",
-              "Coconut",
-              "Colacasia",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Elephant Yam (Suran)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Little gourd (Kundru)",
-              "Mango (Raw-Ripe)",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Snakeguard",
-              "Tomato"
-            ],
-            "Kottayam": [
-              "Banana",
-              "Beetroot",
-              "Bengal Gram(Gram)(Whole)",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Black Gram (Urd Beans)(Whole)",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cluster beans"
-            ],
-            "Pampady": [
-              "Amaranthus",
-              "Ashgourd",
-              "Banana",
-              "Banana - Green",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Coconut",
-              "Colacasia",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Elephant Yam (Suran)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Indian Beans (Seam)",
-              "Little gourd (Kundru)",
-              "Mango (Raw-Ripe)",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Snakeguard",
-              "Tapioca",
-              "Tomato"
-            ],
-            "Kuriem  VFPCK": [
-              "Little gourd (Kundru)",
-              "Tapioca"
+            "Anchal VFPCK": [
+              "Banana"
             ]
           }
         },
         "Kozhikode(Calicut)": {
           "markets": {
-            "Kallachi": [
-              "Amaranthus",
-              "Amphophalus",
-              "Ashgourd",
-              "Banana",
-              "Beetroot",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cluster beans",
-              "Cowpea(Veg)",
-              "Drumstick",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Snakeguard",
-              "Tomato"
-            ],
-            "Mukkam  VFPCK": [
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Cowpea(Veg)",
-              "Papaya (Raw)",
-              "Pumpkin"
-            ],
             "Mukkom": [
               "Amaranthus",
               "Amphophalus",
@@ -2455,113 +577,17 @@
               "Pumpkin",
               "Snakeguard",
               "Tomato"
-            ],
-            "Perambra": [
-              "Amaranthus",
-              "Amphophalus",
-              "Ashgourd",
-              "Onion",
-              "Potato",
-              "Tomato"
-            ],
-            "Quilandy": [
-              "Amaranthus",
-              "Amphophalus",
-              "Ashgourd",
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Cluster beans",
-              "Coriander(Leaves)",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "French Beans (Frasbean)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Snakeguard",
-              "Tomato"
-            ],
-            "Thamarassery": [
-              "Amaranthus",
-              "Amphophalus",
-              "Ashgourd",
-              "Banana - Green",
-              "Beetroot",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "French Beans (Frasbean)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Snakeguard",
-              "Tomato"
-            ],
-            "Vengeri(Kozhikode)": [
-              "Amaranthus",
-              "Ashgourd",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Carrot",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "French Beans (Frasbean)",
-              "Pumpkin",
-              "Snakeguard",
-              "Tomato"
             ]
           }
         },
         "Malappuram": {
           "markets": {
-            "Perinthalmanna": [
+            "Kottakkal": [
+              "Amaranthus",
               "Amla(Nelli Kai)",
               "Amphophalus",
-              "Ashgourd",
-              "Banana",
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Cluster beans",
-              "Colacasia",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Lemon",
-              "Onion",
-              "Potato",
-              "Pumpkin"
-            ],
-            "Thirurrangadi": [
-              "Amaranthus",
+              "Amranthas Red",
+              "Apple",
               "Ashgourd",
               "Banana",
               "Banana - Green",
@@ -2575,7 +601,28 @@
               "Capsicum",
               "Carrot",
               "Cauliflower",
-              "Cucumbar(Kheera)"
+              "Chikoos(Sapota)",
+              "Cowpea(Veg)",
+              "Cucumbar(Kheera)",
+              "Drumstick",
+              "Ginger(Green)",
+              "Grapes",
+              "Green Chilli",
+              "Guava",
+              "Lemon",
+              "Mango",
+              "Mousambi(Sweet Lime)",
+              "Onion",
+              "Orange",
+              "Papaya (Raw)",
+              "Pineapple",
+              "Potato",
+              "Pumpkin",
+              "Raddish",
+              "Snakeguard",
+              "Sweet Potato",
+              "Tomato",
+              "Water Melon"
             ]
           }
         },
@@ -2613,134 +660,37 @@
               "Pineapple",
               "Potato",
               "Pumpkin",
-              "Raddish",
               "Snakeguard",
               "Sweet Potato",
               "Tapioca",
               "Tomato"
             ],
-            "Palakkad": [
-              "Amaranthus",
-              "Arhar (Tur/Red Gram)(Whole)",
+            "vadakarapathy": [
               "Ashgourd",
-              "Banana",
-              "Beetroot",
-              "Bengal Gram(Gram)(Whole)",
+              "Banana - Green",
               "Bhindi(Ladies Finger)",
               "Bitter gourd",
-              "Black Gram (Urd Beans)(Whole)",
               "Bottle gourd",
               "Brinjal",
               "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Chili Red",
               "Cluster beans",
-              "Coconut",
-              "Colacasia",
-              "Cowpea (Lobia/Karamani)",
+              "Coconut Seed",
               "Cowpea(Veg)",
               "Cucumbar(Kheera)",
               "Drumstick",
               "Elephant Yam (Suran)",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Avare (W)",
-              "Green Chilli",
-              "Green Gram (Moong)(Whole)",
-              "Green Peas",
-              "Jack Fruit",
-              "Kabuli Chana(Chickpeas-White)",
               "Lemon",
-              "Lime",
               "Little gourd (Kundru)",
-              "Mango",
-              "Mango (Raw-Ripe)",
               "Onion",
-              "Pineapple",
-              "Potato",
-              "Pumpkin",
-              "Snakeguard",
-              "Sweet Potato",
-              "Tapioca",
-              "Tomato"
-            ],
-            "Alenellur  VFPCK": [
-              "Cowpea(Veg)"
-            ]
-          }
-        },
-        "Pathanamthitta": {
-          "markets": {
-            "Erath  VFPCK": [
-              "Banana",
-              "Little gourd (Kundru)"
-            ],
-            "Kuttoor": [
-              "Amaranthus",
-              "Ashgourd",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Coconut Oil",
-              "Coconut Seed",
-              "Cowpea(Veg)",
-              "Cucumbar(Kheera)",
-              "Elephant Yam (Suran)",
-              "Ginger(Green)",
-              "Pepper ungarbled",
-              "Rubber",
+              "Ridgeguard(Tori)",
               "Snakeguard",
               "Tapioca"
-            ],
-            "Naranganam  VFPCK": [
-              "Banana",
-              "Ginger(Green)"
-            ],
-            "Mezhuveli  VFPCK": [
-              "Banana",
-              "Ginger(Green)",
-              "Little gourd (Kundru)"
-            ],
-            "Puramattom VFPCK": [
-              "Snakeguard"
-            ]
-          }
-        },
-        "Thirssur": {
-          "markets": {
-            "Annamanada  VFPCK": [
-              "Banana",
-              "Brinjal",
-              "Cowpea(Veg)"
-            ],
-            "Irinjalakkuda": [
-              "Ashgourd",
-              "Banana",
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd"
-            ],
-            "Marottichal  VFPCK": [
-              "Banana"
-            ],
-            "Thrissur": [
-              "Amaranthus",
-              "Ashgourd",
-              "Banana",
-              "Beetroot",
-              "Bhindi(Ladies Finger)"
             ]
           }
         },
         "Thiruvananthapuram": {
           "markets": {
             "Aralamoodu": [
-              "Amaranthus",
               "Amphophalus",
               "Banana - Green",
               "Beetroot",
@@ -2765,14 +715,41 @@
               "Tapioca",
               "Tomato"
             ],
+            "Maranelloor VFPCK": [
+              "Banana"
+            ],
+            "Pothencode": [
+              "Amaranthus",
+              "Amphophalus",
+              "Beetroot",
+              "Bitter gourd",
+              "Brinjal",
+              "Cabbage",
+              "Capsicum",
+              "Carrot",
+              "Cauliflower",
+              "Cluster beans",
+              "Colacasia",
+              "Cowpea(Veg)",
+              "Cucumbar(Kheera)",
+              "Drumstick",
+              "Ginger(Green)",
+              "Green Chilli",
+              "Mango (Raw-Ripe)",
+              "Pumpkin",
+              "Snakeguard",
+              "Tapioca",
+              "Tomato"
+            ],
             "Parassala": [
               "Amaranthus",
               "Banana",
-              "Beans",
               "Beetroot",
-              "Cabbage",
+              "Bhindi(Ladies Finger)",
+              "Brinjal",
               "Carrot",
               "Colacasia",
+              "Cowpea(Veg)",
               "Cucumbar(Kheera)",
               "Drumstick",
               "Elephant Yam (Suran)",
@@ -2780,361 +757,47 @@
               "Green Chilli",
               "Lemon",
               "Pineapple",
+              "Pumpkin",
               "Snakeguard",
-              "Tapioca",
               "Tomato"
             ]
           }
         },
-        "Wayanad": {
+        "Pathanamthitta": {
           "markets": {
-            "Thondernad  VFPCK": [
+            "Puramattom VFPCK": [
+              "Banana"
+            ],
+            "Naranganam  VFPCK": [
+              "Snakeguard"
+            ]
+          }
+        },
+        "Thirssur": {
+          "markets": {
+            "Elanad  VFPCK": [
+              "Bitter gourd",
+              "Cowpea(Veg)",
+              "Snakeguard"
+            ],
+            "Karuvannur VFPCK": [
+              "Banana - Green"
+            ],
+            "Kuzhur  VFPCK": [
               "Banana"
             ]
           }
         }
       }
     },
-    "Madhya Pradesh": {
+    "NCT of Delhi": {
       "districts": {
-        "Badwani": {
+        "Delhi": {
           "markets": {
-            "Badwani(F&V)": [
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Green Chilli",
-              "Mango (Raw-Ripe)",
-              "Onion",
-              "Pumpkin",
-              "Sponge gourd",
-              "Tinda",
-              "Tomato"
-            ],
-            "Sendhwa(F&V)": [
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Coriander(Leaves)",
-              "Green Chilli",
-              "Onion",
-              "Tomato"
-            ],
-            "Badwani": [
-              "Kabuli Chana(Chickpeas-White)"
-            ]
-          }
-        },
-        "Dhar": {
-          "markets": {
-            "Kukshi": [
-              "Wheat"
-            ],
-            "Dhamnod": [
-              "Maize"
-            ],
-            "Manawar(F&V)": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Green Chilli",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Spinach",
-              "Sponge gourd",
-              "Tinda",
-              "Tomato"
-            ]
-          }
-        },
-        "Panna": {
-          "markets": {
-            "Pawai": [
-              "Green Peas"
-            ]
-          }
-        },
-        "Ratlam": {
-          "markets": {
-            "Jawra(F&V)": [
-              "Bhindi(Ladies Finger)",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Green Chilli",
-              "Methi(Leaves)",
-              "Other green and fresh vegetables",
-              "Pumpkin",
-              "Ridgeguard(Tori)",
-              "Spinach",
-              "Tomato"
-            ]
-          }
-        },
-        "Sheopur": {
-          "markets": {
-            "Sheopurkalan(F&V)": [
-              "Banana",
-              "Ginger(Green)",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Papaya",
-              "Pomegranate",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Tikamgarh": {
-          "markets": {
-            "Khargapur": [
-              "Wheat"
-            ]
-          }
-        },
-        "Bhopal": {
-          "markets": {
-            "Bhopal": [
-              "Garlic"
-            ]
-          }
-        },
-        "Balaghat": {
-          "markets": {
-            "Balaghat": [
-              "Paddy(Dhan)(Common)"
-            ]
-          }
-        },
-        "Shajapur": {
-          "markets": {
-            "Berachha": [
-              "Wheat"
-            ],
-            "Kalapipal(F&V)": [
-              "Garlic",
-              "Onion"
-            ]
-          }
-        },
-        "Seoni": {
-          "markets": {
-            "Seoni": [
-              "Maize"
-            ]
-          }
-        }
-      }
-    },
-    "Maharashtra": {
-      "districts": {
-        "Ahmednagar": {
-          "markets": {
-            "Shrirampur": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Chilly Capsicum",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Guar",
-              "Karbuja(Musk Melon)",
-              "Lime",
-              "Mango",
-              "Mango (Raw-Ripe)",
-              "Methi(Leaves)",
-              "Papaya",
-              "Potato",
-              "Ridgeguard(Tori)",
-              "Spinach",
-              "Tamarind Fruit",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Nagpur": {
-          "markets": {
-            "Kalmeshwar": [
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Coriander(Leaves)",
-              "Green Chilli",
-              "Methi(Leaves)",
-              "Raddish",
-              "Spinach",
-              "Tomato"
-            ]
-          }
-        },
-        "Pune": {
-          "markets": {
-            "Pune(Moshi)": [
-              "Apple",
-              "Banana",
-              "Beans",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Chilly Capsicum",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Guar",
-              "Lime",
-              "Little gourd (Kundru)",
-              "Mango",
-              "Mango (Raw-Ripe)",
-              "Methi(Leaves)",
-              "Mint(Pudina)",
-              "Onion",
-              "Onion Green",
-              "Orange",
-              "Papaya",
-              "Peas Wet",
-              "Pineapple",
-              "Pointed gourd (Parval)",
-              "Pomegranate",
-              "Potato",
-              "Ridgeguard(Tori)",
-              "Spinach",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Pune(Pimpri)": [
-              "Bhindi(Ladies Finger)",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Coriander(Leaves)",
-              "Green Chilli",
-              "Mango (Raw-Ripe)",
-              "Onion",
-              "Onion Green",
-              "Spinach",
-              "Tomato"
-            ]
-          }
-        },
-        "Raigad": {
-          "markets": {
-            "Murud": [
-              "Rice"
-            ],
-            "Mahad": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Alibagh": [
-              "Rice"
-            ],
-            "Mangaon": [
-              "Rice"
-            ]
-          }
-        },
-        "Satara": {
-          "markets": {
-            "Vai": [
-              "Bottle gourd",
-              "Cabbage",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Potato",
-              "Ridgeguard(Tori)"
-            ]
-          }
-        },
-        "Sholapur": {
-          "markets": {
-            "Akluj": [
-              "Beans",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Chilly Capsicum",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Guar",
-              "Lime",
-              "Mango",
-              "Methi(Leaves)",
-              "Potato",
-              "Ridgeguard(Tori)",
-              "Spinach",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Gadchiroli": {
-          "markets": {
-            "Armori(Desaiganj)": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Armori": [
-              "Paddy(Dhan)(Common)"
-            ]
-          }
-        },
-        "Thane": {
-          "markets": {
-            "Murbad": [
-              "Bhindi(Ladies Finger)"
-            ],
-            "Vasai": [
-              "Rice"
-            ]
-          }
-        }
-      }
-    },
-    "Nagaland": {
-      "districts": {
-        "Wokha": {
-          "markets": {
-            "Baghty": [
-              "Banana"
-            ],
-            "Wokha Town": [
-              "Beans",
-              "Lemon"
+            "Fish,Poultry & Egg Market, Gazipur": [
+              "Cock",
+              "Fish",
+              "Hen"
             ]
           }
         }
@@ -3145,70 +808,28 @@
         "Balasore": {
           "markets": {
             "Jaleswar": [
-              "Bitter gourd",
               "Brinjal",
-              "Cucumbar(Kheera)",
               "Garlic",
               "Ginger(Dry)",
-              "Little gourd (Kundru)",
               "Onion",
               "Pointed gourd (Parval)",
               "Potato",
-              "Pumpkin",
-              "Tomato"
-            ],
-            "Nilagiri": [
-              "Bhindi(Ladies Finger)",
               "Pumpkin",
               "Tomato",
               "Water Melon"
             ]
           }
         },
-        "Bargarh": {
-          "markets": {
-            "Sohela": [
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Pumpkin",
-              "Tomato"
-            ],
-            "Padampur": [
-              "Brinjal",
-              "Cauliflower",
-              "Tomato"
-            ]
-          }
-        },
-        "Bhadrak": {
-          "markets": {
-            "Chandabali": [
-              "Onion",
-              "Potato",
-              "Tomato"
-            ]
-          }
-        },
-        "Bolangir": {
-          "markets": {
-            "Kantabaji": [
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Tomato"
-            ]
-          }
-        },
         "Dhenkanal": {
           "markets": {
-            "Kamakhyanagar": [
+            "Hindol": [
+              "Banana - Green",
+              "Beans",
               "Bhindi(Ladies Finger)",
               "Bitter gourd",
               "Brinjal",
-              "Cabbage",
-              "Cauliflower",
               "Cucumbar(Kheera)",
-              "Green Chilli",
+              "Drumstick",
               "Onion",
               "Pointed gourd (Parval)",
               "Potato",
@@ -3217,26 +838,23 @@
             ]
           }
         },
-        "Ganjam": {
+        "Jharsuguda": {
           "markets": {
-            "Digapahandi": [
-              "Bitter gourd",
-              "Cabbage",
-              "Water Melon"
+            "Jharsuguda": [
+              "Onion",
+              "Potato"
             ]
           }
         },
-        "Jagatsinghpur": {
+        "Kalahandi": {
           "markets": {
-            "Jagatsinghpur": [
-              "Brinjal",
-              "Potato"
-            ],
-            "Rahama": [
-              "Brinjal",
-              "Fish",
-              "Pumpkin",
-              "Rice"
+            "Kesinga": [
+              "Drumstick",
+              "Guar",
+              "Little gourd (Kundru)",
+              "Potato",
+              "Sweet Potato",
+              "Tomato"
             ]
           }
         },
@@ -3246,9 +864,9 @@
               "Bitter gourd",
               "Brinjal",
               "Cauliflower",
-              "Fish",
               "Garlic",
               "Ginger(Dry)",
+              "Mango",
               "Onion",
               "Pointed gourd (Parval)",
               "Potato",
@@ -3258,153 +876,36 @@
         },
         "Mayurbhanja": {
           "markets": {
-            "Baripada": [
-              "Banana - Green",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Green Chilli",
-              "Little gourd (Kundru)",
-              "Papaya (Raw)",
-              "Pointed gourd (Parval)",
-              "Pumpkin",
-              "Ridgeguard(Tori)",
-              "Tomato"
-            ],
-            "Betnoti": [
-              "Bitter gourd",
-              "Bottle gourd",
-              "Colacasia",
-              "Little gourd (Kundru)",
-              "Pointed gourd (Parval)",
-              "Pumpkin",
-              "Tomato",
-              "Water Melon"
-            ],
             "Karanjia": [
               "Bhindi(Ladies Finger)",
               "Fish",
               "Paddy(Dhan)(Common)",
               "Rice"
-            ],
-            "Saraskana": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal"
-            ]
-          }
-        },
-        "Nayagarh": {
-          "markets": {
-            "Sarankul": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Pumpkin",
-              "Tomato"
-            ],
-            "Bahadajholla": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Pumpkin",
-              "Tomato"
-            ]
-          }
-        },
-        "Rayagada": {
-          "markets": {
-            "Rayagada(Muniguda)": [
-              "Beetroot",
-              "Carrot",
-              "Pumpkin",
-              "Water Melon"
-            ],
-            "Gunpur": [
-              "Brinjal",
-              "Cabbage",
-              "Cashewnuts",
-              "Cauliflower",
-              "Water Melon"
-            ]
-          }
-        },
-        "Sonepur": {
-          "markets": {
-            "Dungurapalli": [
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Onion",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Tomato"
             ]
           }
         },
         "Sundergarh": {
           "markets": {
-            "Sargipali": [
+            "Bonai": [
               "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Onion",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Pumpkin",
-              "Tomato"
-            ],
-            "Panposh": [
-              "Bhindi(Ladies Finger)",
-              "Bottle gourd",
-              "Cabbage"
-            ]
-          }
-        },
-        "Kalahandi": {
-          "markets": {
-            "Kesinga": [
-              "Gur(Jaggery)",
-              "Papaya (Raw)",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Pumpkin",
-              "Tomato"
-            ]
-          }
-        },
-        "Keonjhar": {
-          "markets": {
-            "Keonjhar": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
               "Brinjal",
               "Cabbage",
-              "Cauliflower",
+              "Capsicum",
+              "Carrot",
+              "Cucumbar(Kheera)",
+              "Mango",
               "Onion",
+              "Paddy(Dhan)(Common)",
               "Potato",
               "Rice",
               "Tomato"
             ]
           }
         },
-        "Puri": {
+        "Keonjhar": {
           "markets": {
-            "Dumal": [
-              "Betal Leaves"
-            ],
-            "Nimapara": [
-              "Brinjal",
-              "Green Chilli"
+            "Anandapur": [
+              "Pumpkin"
             ]
           }
         }
@@ -3412,526 +913,30 @@
     },
     "Punjab": {
       "districts": {
-        "Amritsar": {
-          "markets": {
-            "Chogawan": [
-              "Cauliflower"
-            ],
-            "Rayya": [
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Cauliflower",
-              "Green Chilli",
-              "Onion",
-              "Potato",
-              "Raddish",
-              "Tomato"
-            ]
-          }
-        },
-        "Faridkot": {
-          "markets": {
-            "Jaitu(Bajakhana)": [
-              "Wheat"
-            ]
-          }
-        },
-        "Fazilka": {
-          "markets": {
-            "Fazilka": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Mango",
-              "Onion",
-              "Papaya",
-              "Potato",
-              "Pumpkin",
-              "Tomato"
-            ],
-            "Jalalabad": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Lemon",
-              "Mango",
-              "Methi(Leaves)",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Onion Green",
-              "Papaya",
-              "Peas Wet",
-              "Pineapple",
-              "Plum",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Sweet Pumpkin",
-              "Tomato",
-              "Water Melon",
-              "Wheat"
-            ],
-            "Abohar": [
-              "Banana",
-              "Bitter gourd",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Mango",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Sponge gourd",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Ferozpur": {
-          "markets": {
-            "Zira": [
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Capsicum",
-              "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Mango",
-              "Onion",
-              "Papaya",
-              "Potato",
-              "Pumpkin",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
         "Gurdaspur": {
           "markets": {
-            "Gurdaspur": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Ginger(Dry)",
-              "Grapes",
-              "Green Chilli",
-              "Guava",
-              "Karbuja(Musk Melon)",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Pomegranate",
-              "Potato",
-              "Tomato"
-            ],
             "Kalanaur": [
-              "Bottle gourd",
-              "Brinjal",
-              "Capsicum",
-              "Coriander(Leaves)",
-              "Green Chilli"
-            ]
-          }
-        },
-        "Hoshiarpur": {
-          "markets": {
-            "Garh Shankar": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Field Pea",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Onion",
-              "Papaya",
-              "Potato",
-              "Pumpkin",
-              "Tomato",
-              "Water Melon",
-              "Wheat"
-            ],
-            "GarhShankar (Kotfatuhi)": [
-              "Apple",
-              "Banana",
-              "Cauliflower",
-              "Green Chilli",
-              "Onion",
-              "Potato",
-              "Wheat"
-            ],
-            "Mukerian": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cucumbar(Kheera)",
-              "Field Pea",
-              "Ginger(Dry)",
-              "Green Chilli",
-              "Onion",
-              "Papaya",
-              "Pomegranate",
-              "Potato",
-              "Tender Coconut",
-              "Tomato"
-            ],
-            "Mukerian(Talwara)": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Capsicum",
-              "Cauliflower",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Field Pea",
-              "Green Chilli",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Round gourd",
-              "Season Leaves",
-              "Tomato"
-            ],
-            "Tanda Urmur": [
-              "Apple",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Field Pea",
-              "Garlic",
-              "Ginger(Dry)",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Mango",
-              "Onion",
-              "Papaya",
-              "Potato",
-              "Pumpkin",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Jalandhar": {
-          "markets": {
-            "Jalandhar City(Jalandhar)": [
-              "Apple",
-              "Banana - Green",
               "Bhindi(Ladies Finger)",
               "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
               "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Colacasia",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
               "Green Chilli",
-              "Guava",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Mashrooms",
-              "Mint(Pudina)",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Peach",
-              "Peas Wet",
-              "Pineapple",
-              "Plum",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Spinach",
-              "Tender Coconut",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Mehatpur": [
-              "Bitter gourd",
-              "Brinjal",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Pumpkin",
-              "Spinach",
-              "Tomato",
-              "Wheat"
-            ],
-            "Phillaur(Apra Mandi)": [
-              "Bitter gourd",
-              "Brinjal",
-              "Capsicum",
-              "Cucumbar(Kheera)",
-              "Karbuja(Musk Melon)",
-              "Onion",
-              "Potato",
-              "Tomato",
-              "Water Melon",
-              "Wheat"
-            ],
-            "Phillaur": [
-              "Bottle gourd",
-              "Squash(Chappal Kadoo)",
-              "Wheat"
-            ],
-            "Jalandhar Cantt.": [
-              "Wheat"
-            ]
-          }
-        },
-        "Ludhiana": {
-          "markets": {
-            "Doraha": [
-              "Capsicum",
-              "Garlic",
-              "Green Chilli",
-              "Onion",
-              "Peas Wet",
-              "Potato"
-            ],
-            "Jagraon": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Mango",
-              "Mashrooms",
-              "Onion",
-              "Papaya",
-              "Pineapple",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Tomato"
-            ],
-            "Ludhiana": [
-              "Apple",
-              "Ashgourd",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Colacasia",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Dry)",
-              "Green Chilli",
-              "Guava",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Peas Wet",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Sahnewal": [
-              "Bhindi(Ladies Finger)",
-              "Cucumbar(Kheera)"
-            ],
-            "Khanna": [
-              "Apple",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower"
-            ]
-          }
-        },
-        "Mansa": {
-          "markets": {
-            "Mansa": [
-              "Apple",
-              "Banana",
-              "Bottle gourd",
-              "Capsicum",
-              "Carrot",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Dry)",
-              "Grapes",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Pomegranate",
-              "Potato",
-              "Ridgeguard(Tori)",
-              "Spinach",
-              "Squash(Chappal Kadoo)",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Moga": {
-          "markets": {
-            "Kot ise Khan": [
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Capsicum",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Potato",
-              "Tinda"
-            ],
-            "Nihal Singh Wala": [
-              "Bottle gourd",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Onion",
-              "Papaya",
-              "Peas Wet",
-              "Potato",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Mohali": {
-          "markets": {
-            "Dera Bassi": [
-              "Bottle gourd",
-              "Cucumbar(Kheera)",
-              "Onion",
-              "Potato",
-              "Tomato"
+              "Pumpkin"
             ]
           }
         },
         "Patiala": {
           "markets": {
-            "Patiala": [
-              "Brinjal",
-              "Cabbage",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mango",
-              "Onion",
-              "Pomegranate",
-              "Potato",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Samana": [
-              "Apple"
-            ]
-          }
-        },
-        "Ropar (Rupnagar)": {
-          "markets": {
-            "Chamkaur Sahib": [
+            "Rajpura": [
               "Apple",
               "Banana",
               "Bhindi(Ladies Finger)",
-              "Bitter gourd",
               "Bottle gourd",
               "Brinjal",
-              "Capsicum",
               "Cauliflower",
               "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Guava",
               "Karbuja(Musk Melon)",
-              "Lemon",
               "Mango",
-              "Onion",
-              "Papaya",
-              "Peas Wet",
-              "Pomegranate",
               "Potato",
-              "Pumpkin",
               "Tomato",
               "Water Melon"
             ]
@@ -3940,92 +945,30 @@
         "Sangrur": {
           "markets": {
             "Ahmedgarh": [
-              "Banana",
               "Bhindi(Ladies Finger)",
               "Brinjal",
               "Cucumbar(Kheera)",
               "Potato",
               "Squash(Chappal Kadoo)",
-              "Tinda",
-              "Tomato"
-            ],
-            "Malerkotla": [
-              "Apple",
-              "Banana",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Coriander(Leaves)",
-              "Cucumbar(Kheera)",
-              "French Beans (Frasbean)",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Lemon",
-              "Long Melon(Kakri)",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Peas Wet",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Sponge gourd",
-              "Squash(Chappal Kadoo)",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Bhatinda": {
-          "markets": {
-            "Bhagta Bhai Ka": [
-              "Banana",
-              "Green Chilli",
-              "Onion",
-              "Potato",
-              "Pumpkin",
               "Tomato"
             ]
           }
         },
         "Tarntaran": {
           "markets": {
-            "Tarantaran": [
+            "Harike": [
               "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Ginger(Dry)",
-              "Green Chilli",
-              "Onion",
-              "Potato",
+              "Capsicum",
+              "Colacasia",
               "Pumpkin",
-              "Tomato",
-              "Wheat"
-            ],
-            "Bhikhiwind": [
-              "Brinjal"
-            ],
-            "Bhikhiwind (Basarke)": [
-              "Wheat"
+              "Ridgeguard(Tori)"
             ]
           }
         },
-        "Muktsar": {
+        "Amritsar": {
           "markets": {
-            "Bariwala": [
-              "Wheat"
+            "Chogawan": [
+              "Cauliflower"
             ]
           }
         }
@@ -4033,33 +976,33 @@
     },
     "Rajasthan": {
       "districts": {
-        " Jhunjhunu": {
+        "Jalore": {
           "markets": {
-            "Nawalgarh": [
-              "Mustard"
-            ],
-            "Surajgarh": [
-              "Barley (Jau)",
-              "Mustard"
+            "Jalore": [
+              "Bhindi(Ladies Finger)",
+              "Bitter gourd",
+              "Bottle gourd",
+              "Brinjal",
+              "Cabbage",
+              "Capsicum",
+              "Cauliflower",
+              "Coriander(Leaves)",
+              "Cucumbar(Kheera)",
+              "Ginger(Green)",
+              "Green Chilli",
+              "Guar",
+              "Lemon",
+              "Mango (Raw-Ripe)",
+              "Spinach",
+              "Tinda",
+              "Water Melon"
             ]
           }
         },
-        "Dausa": {
+        "Pali": {
           "markets": {
-            "Lalsot": [
-              "Arhar (Tur/Red Gram)(Whole)",
-              "Bajra(Pearl Millet/Cumbu)",
-              "Barley (Jau)",
-              "Bengal Gram(Gram)(Whole)",
-              "Mustard",
-              "Sesamum(Sesame,Gingelly,Til)",
-              "Soanf",
-              "Wheat"
-            ],
-            "Mandawari": [
-              "Bengal Gram(Gram)(Whole)",
-              "Mustard",
-              "Wheat"
+            "Sojat City": [
+              "Mahedi"
             ]
           }
         },
@@ -4070,232 +1013,30 @@
             ]
           }
         },
-        "Ganganagar": {
-          "markets": {
-            "Sriganganagar (F&V)": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Grapes",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lime",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Pineapple",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Sponge gourd",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Suratgarh": [
-              "Barley (Jau)",
-              "Bengal Gram(Gram)(Whole)",
-              "Garlic",
-              "Mustard",
-              "Onion",
-              "Potato",
-              "Tomato",
-              "Wheat"
-            ]
-          }
-        },
-        "Jaipur Rural": {
-          "markets": {
-            "Bassi": [
-              "Bajra(Pearl Millet/Cumbu)",
-              "Barley (Jau)",
-              "Bengal Gram(Gram)(Whole)",
-              "Guar Seed(Cluster Beans Seed)",
-              "Mustard",
-              "Onion",
-              "Potato",
-              "Taramira",
-              "Tomato",
-              "Wheat"
-            ]
-          }
-        },
         "Jaisalmer": {
           "markets": {
             "Jaisalmer": [
-              "Onion"
-            ],
-            "Mohangarh": [
-              "Isabgul (Psyllium)"
+              "Potato"
             ]
           }
         },
-        "Jalore": {
+        "Tonk": {
           "markets": {
-            "Jalore": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Lemon",
-              "Mango (Raw-Ripe)",
-              "Potato",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Bhinmal": [
-              "Tomato"
-            ]
-          }
-        },
-        "Jodhpur": {
-          "markets": {
-            "Jodhpur (F&V)": [
-              "Apple",
-              "Coconut",
-              "Garlic",
-              "Grapes",
-              "Karbuja(Musk Melon)",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Pineapple",
-              "Pomegranate",
-              "Potato",
-              "Water Melon"
-            ],
-            "Jodhpur (Grain)": [
-              "Bajra(Pearl Millet/Cumbu)",
-              "Cummin Seed(Jeera)",
-              "Garlic",
-              "Green Gram (Moong)(Whole)",
-              "Isabgul (Psyllium)",
-              "Methi Seeds",
-              "Soanf"
-            ],
-            "Jodhpur(F&V)(Paota)": [
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower",
-              "Cluster beans",
-              "Colacasia",
-              "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Lemon",
-              "Long Melon(Kakri)",
-              "Mango (Raw-Ripe)",
-              "Marigold(loose)",
-              "Mint(Pudina)",
-              "Onion Green",
-              "Ridgeguard(Tori)",
-              "Rose(Loose))",
-              "Round gourd",
-              "Tomato"
-            ]
-          }
-        },
-        "Beawar": {
-          "markets": {
-            "Beawar": [
+            "Malpura": [
               "Bajra(Pearl Millet/Cumbu)",
               "Barley (Jau)",
+              "Bengal Gram(Gram)(Whole)",
               "Cummin Seed(Jeera)",
-              "Guar",
-              "Kulthi(Horse Gram)",
-              "Methi Seeds",
+              "Green Gram (Moong)(Whole)",
               "Mustard",
               "Soanf",
               "Wheat"
             ]
           }
         },
-        "Hanumangarh": {
+        " Jhunjhunu": {
           "markets": {
-            "Rawatsar": [
-              "Onion",
-              "Potato",
-              "Tomato"
-            ]
-          }
-        },
-        "Karauli": {
-          "markets": {
-            "Hindoun": [
-              "Bajra(Pearl Millet/Cumbu)",
-              "Bengal Gram(Gram)(Whole)",
-              "Mustard",
-              "Wheat"
-            ]
-          }
-        },
-        "Sikar": {
-          "markets": {
-            "Sikar": [
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Onion",
-              "Potato",
-              "Tomato"
-            ]
-          }
-        },
-        "Churu": {
-          "markets": {
-            "Sadulpur": [
-              "Bajra(Pearl Millet/Cumbu)"
-            ]
-          }
-        },
-        "Pali": {
-          "markets": {
-            "Pali": [
-              "Tomato"
-            ]
-          }
-        },
-        "Deeg": {
-          "markets": {
-            "Sikri": [
-              "Mustard"
-            ]
-          }
-        },
-        "Jhalawar": {
-          "markets": {
-            "Manohar Thana": [
-              "Mustard",
-              "Wheat"
-            ]
-          }
-        },
-        "Jodhpur Rural": {
-          "markets": {
-            "Ositan Mathania": [
-              "Guar",
-              "Isabgul (Psyllium)",
+            "Surajgarh": [
               "Mustard"
             ]
           }
@@ -4304,33 +1045,56 @@
     },
     "Telangana": {
       "districts": {
-        "Hyderabad": {
+        "Karimnagar": {
           "markets": {
-            "Erragadda(Rythu Bazar)": [
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
+            "Gangadhara": [
+              "Paddy(Dhan)(Common)"
+            ],
+            "Husnabad": [
+              "Paddy(Dhan)(Common)"
+            ],
+            "Huzzurabad": [
+              "Paddy(Dhan)(Common)"
+            ]
+          }
+        },
+        "Mahbubnagar": {
+          "markets": {
+            "Mahbubnagar(Nawabpet)": [
+              "Maize",
+              "Paddy(Dhan)(Common)"
+            ],
+            "Wanaparthy town": [
+              "Groundnut"
+            ]
+          }
+        },
+        "Nalgonda": {
+          "markets": {
+            "Kodad": [
+              "Paddy(Dhan)(Common)"
+            ],
+            "Suryapeta": [
+              "Arhar (Tur/Red Gram)(Whole)"
+            ],
+            "Aler": [
+              "Arhar (Tur/Red Gram)(Whole)"
+            ],
+            "Neredcherla": [
+              "Paddy(Dhan)(Common)"
+            ]
+          }
+        },
+        "Ranga Reddy": {
+          "markets": {
+            "Chevella": [
               "Brinjal",
               "Cabbage",
-              "Carrot",
               "Cauliflower",
-              "Cluster beans",
-              "Colacasia",
-              "Cucumbar(Kheera)",
-              "Drumstick",
-              "Field Pea",
-              "French Beans (Frasbean)",
               "Green Chilli",
-              "Leafy Vegetable",
-              "Onion",
-              "Potato",
-              "Ridgeguard(Tori)",
-              "Snakeguard",
-              "Tomato",
-              "Yam (Ratalu)"
+              "Tomato"
             ],
-            "L B Nagar": [
+            "Kukatpally(Rythu Bazar)": [
               "Banana - Green",
               "Beetroot",
               "Bhindi(Ladies Finger)",
@@ -4342,54 +1106,22 @@
               "Carrot",
               "Cauliflower",
               "Cluster beans",
+              "Colacasia",
               "Cucumbar(Kheera)",
               "Drumstick",
               "Field Pea",
               "French Beans (Frasbean)",
               "Green Chilli",
-              "Pumpkin",
-              "Tomato"
-            ]
-          }
-        },
-        "Khammam": {
-          "markets": {
-            "Burgampadu": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Sattupalli": [
-              "Paddy(Dhan)(Common)",
-              "Wood"
-            ],
-            "Bhadrachalam": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Wyra": [
-              "Paddy(Dhan)(Common)"
-            ]
-          }
-        },
-        "Mahbubnagar": {
-          "markets": {
-            "Mahabubnagar(Rythu Bazar)": [
-              "Bhindi(Ladies Finger)",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cluster beans",
-              "Green Chilli",
               "Leafy Vegetable",
+              "Onion",
               "Potato",
-              "Tomato"
+              "Pumpkin",
+              "Ridgeguard(Tori)",
+              "Snakeguard",
+              "Sweet Potato",
+              "Tomato",
+              "Yam (Ratalu)"
             ],
-            "Kollapur": [
-              "Paddy(Dhan)(Common)"
-            ]
-          }
-        },
-        "Ranga Reddy": {
-          "markets": {
             "Mehndipatnam(Rythu Bazar)": [
               "Banana - Green",
               "Beetroot",
@@ -4410,109 +1142,13 @@
               "Leafy Vegetable",
               "Onion",
               "Potato",
-              "Ridgeguard(Tori)",
-              "Snakeguard",
-              "Tomato"
-            ],
-            "Kukatpally(Rythu Bazar)": [
-              "Banana - Green",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd"
+              "Yam (Ratalu)"
             ]
           }
         },
-        "Warangal": {
+        "Khammam": {
           "markets": {
-            "Warangal": [
-              "Banana",
-              "Beetroot",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Carrot",
-              "Cauliflower",
-              "Cluster beans",
-              "Colacasia",
-              "Cucumbar(Kheera)",
-              "Field Pea",
-              "French Beans (Frasbean)",
-              "Grapes",
-              "Green Chilli",
-              "Mango",
-              "Pineapple",
-              "Potato",
-              "Ridgeguard(Tori)",
-              "Tomato",
-              "Water Melon"
-            ]
-          }
-        },
-        "Adilabad": {
-          "markets": {
-            "Adilabad": [
-              "Cotton"
-            ]
-          }
-        },
-        "Karimnagar": {
-          "markets": {
-            "Husnabad": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Ibrahimpatnam": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Gangadhara": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Huzzurabad": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Manakodur": [
-              "Paddy(Dhan)(Common)"
-            ]
-          }
-        },
-        "Medak": {
-          "markets": {
-            "Gajwel": [
-              "Paddy(Dhan)(Common)"
-            ]
-          }
-        },
-        "Nalgonda": {
-          "markets": {
-            "Aler": [
-              "Arhar (Tur/Red Gram)(Whole)"
-            ],
-            "Huzurnagar": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Huzurnagar(Matampally)": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Devarkonda(Dindi)": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Huzumnagar(Garidepally)": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Miryalaguda": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Devarakonda": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Kodad": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Thungathurthy": [
-              "Paddy(Dhan)(Common)"
-            ],
-            "Devarkonda(Mallepalli)": [
+            "Kothagudem": [
               "Paddy(Dhan)(Common)"
             ]
           }
@@ -4521,99 +1157,117 @@
     },
     "Tripura": {
       "districts": {
-        "Gomati": {
+        "Dhalai": {
           "markets": {
-            "Nutanbazar": [
+            "Chowmanu": [
               "Bhindi(Ladies Finger)",
               "Bitter gourd",
               "Brinjal",
-              "Carrot",
               "Cucumbar(Kheera)",
-              "Ginger(Green)",
+              "Green Chilli",
+              "Potato"
+            ],
+            "Gandacharra": [
+              "Bhindi(Ladies Finger)",
+              "Bitter gourd",
+              "Brinjal",
+              "Green Chilli",
+              "Onion",
+              "Potato",
+              "Sponge gourd",
+              "Sweet Pumpkin",
+              "Tomato"
+            ],
+            "Kulai": [
+              "Ashgourd",
+              "Banana - Green",
+              "Green Chilli",
+              "Indian Beans (Seam)",
+              "Papaya (Raw)",
+              "Pointed gourd (Parval)",
+              "Ridgeguard(Tori)"
+            ],
+            "Masli": [
+              "Bhindi(Ladies Finger)",
+              "Bitter gourd",
+              "Brinjal",
+              "Cock",
+              "Fish",
               "Green Chilli",
               "Potato",
               "Rice",
-              "Tomato"
-            ]
-          }
-        },
-        "Khowai": {
-          "markets": {
-            "Kalyanpur": [
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Fish",
-              "Green Chilli",
-              "Kartali (Kantola)",
-              "Onion",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Ridgeguard(Tori)",
-              "Tomato"
+              "Ridgeguard(Tori)"
             ]
           }
         },
         "North Tripura": {
           "markets": {
             "Dasda": [
+              "Bhindi(Ladies Finger)",
               "Brinjal",
               "Onion",
               "Potato",
               "Rice"
+            ],
+            "Kanchanpur": [
+              "Apple",
+              "Bitter gourd",
+              "Brinjal",
+              "Ginger(Green)",
+              "Green Chilli",
+              "Masur Dal",
+              "Onion",
+              "Pointed gourd (Parval)",
+              "Potato",
+              "Rice"
+            ],
+            "Panisagar": [
+              "Bhindi(Ladies Finger)",
+              "Brinjal",
+              "Cowpea(Veg)",
+              "Cucumbar(Kheera)",
+              "Garlic",
+              "Ginger(Green)",
+              "Lemon",
+              "Onion",
+              "Potato",
+              "Pumpkin",
+              "Tomato"
+            ],
+            "Kadamtala": [
+              "Brinjal"
             ]
           }
         },
         "Sepahijala": {
           "markets": {
-            "Boxonagar": [
-              "Banana - Green",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cock",
-              "Cucumbar(Kheera)",
-              "Fish",
+            "Jumpuijala": [
               "Ginger(Green)",
               "Green Chilli",
-              "Pointed gourd (Parval)",
+              "Onion",
               "Potato",
-              "Rice",
-              "Tomato"
+              "Rice"
             ],
             "Melaghar": [
               "Banana",
               "Bhindi(Ladies Finger)",
               "Bitter gourd",
-              "Cucumbar(Kheera)",
-              "Onion",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Ridgeguard(Tori)"
-            ],
-            "Sonamura": [
-              "Banana - Green",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
               "Brinjal",
-              "Cock",
-              "Cucumbar(Kheera)",
               "Fish",
-              "Green Chilli",
+              "Onion",
               "Potato"
             ]
           }
         },
-        "West District": {
+        "South District": {
           "markets": {
-            "Kamalghat": [
+            "Barpathari": [
               "Bhindi(Ladies Finger)",
-              "Bitter gourd",
               "Brinjal",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Ridgeguard(Tori)",
-              "Tomato"
+              "Cowpea(Veg)",
+              "Kartali (Kantola)",
+              "Pointed gourd (Parval)",
+              "Ridgeguard(Tori)"
             ]
           }
         }
@@ -4623,64 +1277,23 @@
       "districts": {
         "Agra": {
           "markets": {
-            "Achnera": [
-              "Onion",
-              "Potato",
-              "Tomato"
-            ],
-            "Fatehabad": [
-              "Bajra(Pearl Millet/Cumbu)",
-              "Bhindi(Ladies Finger)",
-              "Bottle gourd",
-              "Brinjal",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
+            "Khairagarh": [
               "Mustard",
-              "Onion",
               "Potato",
-              "Pumpkin",
-              "Tomato"
-            ]
-          }
-        },
-        "Aligarh": {
-          "markets": {
-            "Aligarh": [
-              "Onion",
-              "Potato",
-              "Tomato"
-            ],
-            "Charra": [
-              "Bajra(Pearl Millet/Cumbu)",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Green Chilli",
-              "Mustard",
-              "Onion",
-              "Paddy(Dhan)(Basmati)",
-              "Potato",
-              "Pumpkin",
               "Tomato",
               "Wheat"
             ],
-            "Khair": [
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
+            "Agra": [
               "Onion",
               "Potato",
-              "Tomato",
-              "Wheat"
+              "Tomato"
+            ],
+            "Samsabad": [
+              "Green Chilli",
+              "Lemon",
+              "Onion",
+              "Potato",
+              "Tomato"
             ]
           }
         },
@@ -4693,241 +1306,19 @@
             ]
           }
         },
-        "Amethi": {
-          "markets": {
-            "Sultanpur": [
-              "Apple",
-              "Arhar Dal(Tur Dal)",
-              "Banana - Green",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Black Gram Dal (Urd Dal)",
-              "Bottle gourd",
-              "Brinjal",
-              "Capsicum",
-              "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Jack Fruit",
-              "Lemon",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Pointed gourd (Parval)",
-              "Pomegranate",
-              "Potato",
-              "Rice",
-              "Tomato"
-            ]
-          }
-        },
-        "Amroha": {
-          "markets": {
-            "Hasanpur": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Guava",
-              "Lemon",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Ridgeguard(Tori)",
-              "Spinach",
-              "Tomato"
-            ]
-          }
-        },
-        "Ayodhya": {
-          "markets": {
-            "Faizabad": [
-              "Apple",
-              "Banana",
-              "Bengal Gram(Gram)(Whole)",
-              "Bottle gourd",
-              "Brinjal",
-              "Garlic",
-              "Green Chilli",
-              "Gur(Jaggery)",
-              "Lentil (Masur)(Whole)",
-              "Maize",
-              "Mustard",
-              "Onion",
-              "Paddy(Dhan)(Common)",
-              "Papaya",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Rice",
-              "Sugar",
-              "Tomato",
-              "Wheat"
-            ]
-          }
-        },
         "Badaun": {
           "markets": {
-            "Badayoun": [
-              "Apple",
-              "Banana - Green",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Capsicum",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Gur(Jaggery)",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Lentil (Masur)(Whole)",
-              "Onion",
-              "Paddy(Dhan)(Common)",
-              "Papaya",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Rice",
-              "Ridgeguard(Tori)",
-              "Tomato",
-              "Water Melon",
-              "Wheat"
-            ],
-            "Bilsi": [
-              "Apple",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Garlic",
-              "Green Chilli",
-              "Jack Fruit",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Ujhani": [
-              "Apple",
-              "Bajra(Pearl Millet/Cumbu)",
-              "Cabbage",
-              "Cauliflower",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Gur(Jaggery)",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Ridgeguard(Tori)",
-              "Tomato",
-              "Water Melon",
-              "Wheat"
-            ],
-            "Visoli": [
-              "Potato",
-              "Wheat"
-            ],
             "Babrala": [
               "Wheat",
               "Wood"
             ],
             "Dataganj": [
               "Wheat"
-            ]
-          }
-        },
-        "Bahraich": {
-          "markets": {
-            "Naanpara": [
-              "Apple",
-              "Arhar Dal(Tur Dal)",
-              "Banana - Green",
-              "Black Gram Dal (Urd Dal)",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Mousambi(Sweet Lime)",
-              "Paddy(Dhan)(Common)",
-              "Potato",
-              "Tomato",
-              "Wheat"
-            ]
-          }
-        },
-        "Ballia": {
-          "markets": {
-            "Ballia": [
-              "Apple",
-              "Banana",
-              "Barley (Jau)",
-              "Bengal Gram(Gram)(Whole)",
-              "Bhindi(Ladies Finger)",
-              "Bottle gourd",
-              "Brinjal",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Gur(Jaggery)",
-              "Lemon",
-              "Lentil (Masur)(Whole)",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Rice",
-              "Tomato",
-              "Wheat",
-              "White Peas"
             ],
-            "Rasda": [
-              "Apple",
-              "Arhar Dal(Tur Dal)",
+            "Shahaswan": [
               "Banana",
-              "Banana - Green",
-              "Barley (Jau)",
-              "Bengal Gram Dal (Chana Dal)",
-              "Bengal Gram(Gram)(Whole)",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Green Gram (Moong)(Whole)",
-              "Lemon",
-              "Lentil (Masur)(Whole)",
-              "Masur Dal",
-              "Onion",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Pumpkin",
-              "Rice",
-              "Tomato",
-              "Wheat"
+              "Mango",
+              "Potato"
             ]
           }
         },
@@ -4937,28 +1328,39 @@
               "Apple",
               "Bottle gourd",
               "Brinjal",
-              "Cauliflower",
               "Green Chilli",
+              "Lentil (Masur)(Whole)",
               "Onion",
+              "Paddy(Dhan)(Common)",
               "Potato",
               "Pumpkin",
+              "Rice",
+              "Tomato",
+              "Wheat"
+            ]
+          }
+        },
+        "Barabanki": {
+          "markets": {
+            "Barabanki": [
+              "Onion",
+              "Potato",
               "Tomato"
+            ]
+          }
+        },
+        "Bareilly": {
+          "markets": {
+            "Bahedi": [
+              "Apple",
+              "Onion",
+              "Paddy(Dhan)(Common)",
+              "Wood"
             ]
           }
         },
         "Bijnor": {
           "markets": {
-            "Nagina": [
-              "Apple",
-              "Bhindi(Ladies Finger)",
-              "Brinjal",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Lemon",
-              "Onion",
-              "Potato",
-              "Tomato"
-            ],
             "Chaandpur": [
               "Onion",
               "Potato",
@@ -4967,13 +1369,14 @@
             "Haldaur": [
               "Gur(Jaggery)"
             ],
-            "Kiratpur": [
-              "Apple",
-              "Banana - Green",
-              "Bottle gourd",
+            "Najibabad": [
               "Brinjal",
-              "Gur(Jaggery)",
-              "Papaya",
+              "Capsicum",
+              "Potato",
+              "Tomato"
+            ],
+            "Bijnaur": [
+              "Onion",
               "Potato",
               "Tomato"
             ]
@@ -4992,44 +1395,18 @@
               "Potato",
               "Pumpkin",
               "Raddish",
+              "Ridgeguard(Tori)",
               "Tomato",
-              "Water Melon"
-            ],
-            "Buland Shahr": [
-              "Apple",
-              "Banana - Green",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Gur(Jaggery)",
-              "Mustard",
-              "Mustard Oil",
-              "Onion",
-              "Paddy(Dhan)(Basmati)",
-              "Papaya",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Rice",
-              "Spinach",
-              "Sponge gourd",
-              "Tomato",
+              "Water Melon",
               "Wheat"
             ],
             "Divai": [
               "Potato"
             ],
             "Gulavati": [
-              "Bitter gourd",
               "Bottle gourd",
               "Brinjal",
-              "Colacasia",
+              "Cauliflower",
               "Cucumbar(Kheera)",
               "Garlic",
               "Ginger(Green)",
@@ -5038,24 +1415,6 @@
               "Onion",
               "Potato",
               "Pumpkin"
-            ],
-            "Sikanderabad": [
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bottle gourd",
-              "Brinjal",
-              "Cauliflower",
-              "Chikoos(Sapota)",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Tomato",
-              "Water Melon"
             ],
             "Jahangirabad": [
               "Apple",
@@ -5067,13 +1426,12 @@
               "Black Gram Dal (Urd Dal)",
               "Bottle gourd",
               "Brinjal",
-              "Cabbage",
               "Cauliflower",
               "Cucumbar(Kheera)",
-              "Ginger(Green)",
               "Green Chilli",
               "Green Gram Dal (Moong Dal)",
               "Gur(Jaggery)",
+              "Maize",
               "Masur Dal",
               "Onion",
               "Paddy(Dhan)(Basmati)",
@@ -5083,8 +1441,8 @@
               "Raddish",
               "Rice",
               "Ridgeguard(Tori)",
-              "Spinach",
               "Tomato",
+              "Water Melon",
               "Wheat"
             ]
           }
@@ -5095,77 +1453,64 @@
               "Bajra(Pearl Millet/Cumbu)",
               "Maize",
               "Wheat"
+            ]
+          }
+        },
+        "Etawah": {
+          "markets": {
+            "Jasvantnagar": [
+              "Apple",
+              "Onion",
+              "Potato",
+              "Tomato",
+              "Wheat"
             ],
-            "Awagarh": [
-              "Bottle gourd",
-              "Brinjal",
-              "Cauliflower",
-              "Cucumbar(Kheera)"
+            "Etawah": [
+              "Onion",
+              "Potato",
+              "Tomato"
             ]
           }
         },
         "Farukhabad": {
           "markets": {
-            "Farukhabad": [
+            "Kamlaganj": [
+              "Maize",
+              "Potato",
+              "Wheat"
+            ],
+            "Mohamadabad": [
               "Apple",
+              "Arhar Dal(Tur Dal)",
               "Banana",
               "Bhindi(Ladies Finger)",
+              "Black Gram Dal (Urd Dal)",
               "Bottle gourd",
               "Brinjal",
-              "Cabbage",
               "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
               "Green Chilli",
+              "Green Gram Dal (Moong Dal)",
               "Gur(Jaggery)",
               "Jack Fruit",
               "Karbuja(Musk Melon)",
-              "Lemon",
               "Maize",
-              "Mousambi(Sweet Lime)",
+              "Mustard Oil",
               "Onion",
-              "Papaya",
               "Pomegranate",
               "Potato",
               "Pumpkin",
-              "Raddish",
               "Rice",
               "Sponge gourd",
               "Tomato",
               "Water Melon",
               "Wheat"
-            ],
-            "Kamlaganj": [
-              "Potato",
-              "Tomato"
             ]
           }
         },
         "Fatehpur": {
           "markets": {
-            "Kishunpur": [
-              "Bengal Gram(Gram)(Whole)",
-              "Mustard",
-              "Wheat"
-            ],
             "Fatehpur": [
-              "Onion",
-              "Potato",
-              "Tomato"
-            ],
-            "Jahanabad": [
-              "Gur(Jaggery)",
-              "Potato",
-              "Wheat"
-            ]
-          }
-        },
-        "Gonda": {
-          "markets": {
-            "Nawabganj": [
               "Apple",
-              "Arhar Dal(Tur Dal)",
-              "Banana",
               "Bengal Gram(Gram)(Whole)",
               "Bhindi(Ladies Finger)",
               "Bitter gourd",
@@ -5174,201 +1519,251 @@
               "Cucumbar(Kheera)",
               "Garlic",
               "Ginger(Green)",
-              "Grapes",
               "Green Chilli",
               "Gur(Jaggery)",
               "Karbuja(Musk Melon)",
-              "Lemon",
-              "Lentil (Masur)(Whole)",
-              "Mousambi(Sweet Lime)",
               "Onion",
-              "Paddy(Dhan)(Common)",
               "Papaya",
               "Pointed gourd (Parval)",
+              "Potato",
+              "Pumpkin",
+              "Rice",
+              "Sponge gourd",
+              "Tomato",
+              "Water Melon",
+              "Wheat"
+            ]
+          }
+        },
+        "Firozabad": {
+          "markets": {
+            "Firozabad": [
+              "Apple",
+              "Arhar Dal(Tur Dal)",
+              "Bajra(Pearl Millet/Cumbu)",
+              "Banana",
+              "Barley (Jau)",
+              "Bengal Gram Dal (Chana Dal)",
+              "Bengal Gram(Gram)(Whole)",
+              "Bhindi(Ladies Finger)",
+              "Bitter gourd",
+              "Black Gram Dal (Urd Dal)",
+              "Bottle gourd",
+              "Brinjal",
+              "Cabbage",
+              "Capsicum",
+              "Cauliflower",
+              "Colacasia",
+              "Cucumbar(Kheera)",
+              "Garlic",
+              "Ginger(Green)",
+              "Green Chilli",
+              "Green Gram Dal (Moong Dal)",
+              "Gur(Jaggery)",
+              "Lemon",
+              "Onion",
+              "Potato",
+              "Tomato",
+              "Wheat",
+              "White Peas"
+            ]
+          }
+        },
+        "Ghaziabad": {
+          "markets": {
+            "Ghaziabad": [
+              "Apple",
+              "Arhar (Tur/Red Gram)(Whole)",
+              "Arhar Dal(Tur Dal)",
+              "Banana - Green",
+              "Barley (Jau)",
+              "Bengal Gram(Gram)(Whole)",
+              "Bhindi(Ladies Finger)",
+              "Bitter gourd",
+              "Black Gram (Urd Beans)(Whole)",
+              "Black Gram Dal (Urd Dal)",
+              "Bottle gourd",
+              "Brinjal",
+              "Capsicum",
+              "Cucumbar(Kheera)",
+              "Garlic",
+              "Ginger(Green)",
+              "Green Chilli",
+              "Green Gram Dal (Moong Dal)",
+              "Gur(Jaggery)",
+              "Karbuja(Musk Melon)",
+              "Maize",
+              "Mango",
+              "Mousambi(Sweet Lime)",
+              "Mustard",
+              "Mustard Oil",
+              "Onion",
+              "Papaya",
               "Pomegranate",
               "Potato",
               "Pumpkin",
               "Rice",
+              "Sugar",
               "Tomato",
               "Water Melon",
+              "Wheat",
+              "White Peas"
+            ]
+          }
+        },
+        "Hamirpur": {
+          "markets": {
+            "Muskara": [
+              "Banana",
+              "Barley (Jau)",
+              "Bengal Gram(Gram)(Whole)",
+              "Bhindi(Ladies Finger)",
+              "Bottle gourd",
+              "Brinjal",
+              "Green Chilli",
+              "Onion",
+              "Potato",
+              "Pumpkin",
+              "Rice",
+              "Tomato",
+              "Wheat",
+              "White Peas"
+            ],
+            "Kurara": [
               "Wheat"
             ]
           }
         },
         "Hardoi": {
           "markets": {
-            "Shahabad(New Mandi)": [
+            "Sandila": [
+              "Apple",
+              "Arhar Dal(Tur Dal)",
+              "Bengal Gram(Gram)(Whole)",
+              "Bottle gourd",
+              "Brinjal",
+              "Garlic",
+              "Ginger(Green)",
+              "Green Chilli",
+              "Gur(Jaggery)",
+              "Maize",
+              "Mango",
               "Onion",
+              "Paddy(Dhan)(Common)",
+              "Pomegranate",
               "Potato",
-              "Tomato"
-            ]
-          }
-        },
-        "Hathras": {
-          "markets": {
-            "Shadabad": [
+              "Pumpkin",
+              "Rice",
+              "Tomato",
+              "Wheat"
+            ],
+            "Hardoi": [
               "Onion",
               "Potato",
               "Tomato"
             ],
-            "Sikandraraau": [
-              "Bajra(Pearl Millet/Cumbu)",
+            "Madhoganj": [
+              "Onion",
               "Potato",
-              "Wheat"
+              "Tomato"
             ]
           }
         },
         "Jalaun (Orai)": {
           "markets": {
-            "Jalaun": [
-              "Banana",
-              "Brinjal",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Jack Fruit",
-              "Karbuja(Musk Melon)",
-              "Mango",
-              "Onion",
-              "Pumpkin",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Ait": [
-              "Wheat"
-            ]
-          }
-        },
-        "Jaunpur": {
-          "markets": {
-            "Mugrabaadshahpur": [
-              "Apple",
-              "Bengal Gram Dal (Chana Dal)",
-              "Bengal Gram(Gram)(Whole)",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Gur(Jaggery)",
-              "Lentil (Masur)(Whole)",
-              "Mustard",
-              "Onion",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Rice",
-              "Tomato",
-              "Wheat",
-              "White Peas"
-            ],
-            "Shahganj": [
+            "Orai": [
               "Apple",
               "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Orange",
-              "Pointed gourd (Parval)",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Rice",
-              "Spinach",
-              "Sponge gourd",
-              "Tomato",
-              "Water Melon",
-              "Wheat"
-            ]
-          }
-        },
-        "Kanpur": {
-          "markets": {
-            "Uttaripura": [
-              "Apple",
-              "Bajra(Pearl Millet/Cumbu)",
               "Barley (Jau)",
               "Bengal Gram(Gram)(Whole)",
               "Bhindi(Ladies Finger)",
               "Bitter gourd",
               "Bottle gourd",
               "Brinjal",
+              "Cabbage",
+              "Cauliflower",
+              "Cucumbar(Kheera)",
               "Garlic",
               "Ginger(Green)",
               "Green Chilli",
-              "Gur(Jaggery)",
-              "Lemon",
-              "Maize",
+              "Green Peas",
+              "Lime",
+              "Litchi",
+              "Mango",
+              "Mousambi(Sweet Lime)",
               "Mustard",
               "Onion",
+              "Papaya",
+              "Pomegranate",
               "Potato",
               "Pumpkin",
-              "Raddish",
               "Rice",
               "Ridgeguard(Tori)",
               "Tomato",
+              "Wheat",
+              "White Peas"
+            ],
+            "Madhogarh": [
+              "Green Gram (Moong)(Whole)",
               "Wheat"
             ]
           }
         },
-        "Khiri (Lakhimpur)": {
+        "Kannuj": {
           "markets": {
-            "Maigalganj": [
+            "Kannauj": [
               "Apple",
+              "Banana",
               "Bhindi(Ladies Finger)",
               "Bottle gourd",
               "Brinjal",
-              "Cabbage",
-              "Garlic",
-              "Gur(Jaggery)",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Tomato",
-              "Wheat"
-            ]
-          }
-        },
-        "Lakhimpur": {
-          "markets": {
-            "Lakhimpur": [
-              "Apple",
-              "Banana",
-              "Bengal Gram(Gram)(Whole)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Capsicum",
+              "Cucumbar(Kheera)",
               "Garlic",
               "Ginger(Green)",
               "Green Chilli",
               "Gur(Jaggery)",
               "Jack Fruit",
-              "Lentil (Masur)(Whole)",
+              "Lemon",
               "Maize",
-              "Mousambi(Sweet Lime)",
-              "Mustard",
               "Mustard Oil",
               "Onion",
-              "Paddy(Dhan)(Common)",
-              "Papaya",
+              "Pomegranate",
               "Potato",
+              "Pumpkin",
               "Rice",
               "Ridgeguard(Tori)",
-              "Sugar",
+              "Tomato",
+              "Wheat"
+            ]
+          }
+        },
+        "Kanpur Dehat": {
+          "markets": {
+            "Pukharayan": [
+              "Apple",
+              "Arhar (Tur/Red Gram)(Whole)",
+              "Arhar Dal(Tur Dal)",
+              "Banana",
+              "Bengal Gram Dal (Chana Dal)",
+              "Bengal Gram(Gram)(Whole)",
+              "Bhindi(Ladies Finger)",
+              "Bottle gourd",
+              "Brinjal",
+              "Ginger(Green)",
+              "Green Chilli",
+              "Gur(Jaggery)",
+              "Maize",
+              "Mango",
+              "Mustard",
+              "Onion",
+              "Papaya",
+              "Peas(Dry)",
+              "Pomegranate",
+              "Potato",
+              "Pumpkin",
+              "Raddish",
+              "Rice",
+              "Sponge gourd",
               "Tomato",
               "Wheat"
             ]
@@ -5383,213 +1778,143 @@
             ]
           }
         },
-        "Maharajganj": {
+        "Mahoba": {
           "markets": {
-            "Anandnagar": [
+            "Mahoba": [
               "Apple",
-              "Banana - Green",
-              "Green Chilli",
-              "Gur(Jaggery)",
-              "Onion",
-              "Orange",
-              "Papaya",
-              "Potato",
-              "Rice",
-              "Tomato",
-              "Wheat"
-            ],
-            "Gadaura": [
-              "Banana - Green",
+              "Arhar Dal(Tur Dal)",
+              "Banana",
+              "Barley (Jau)",
+              "Bengal Gram(Gram)(Whole)",
+              "Bhindi(Ladies Finger)",
+              "Bitter gourd",
+              "Black Gram Dal (Urd Dal)",
               "Bottle gourd",
               "Brinjal",
-              "Cauliflower",
-              "Garlic",
-              "Ginger(Green)",
               "Green Chilli",
-              "Jack Fruit",
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Tomato",
-              "Wheat"
-            ],
-            "Nautnava": [
-              "Apple",
-              "Banana - Green",
-              "Brinjal",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
+              "Groundnut",
               "Gur(Jaggery)",
               "Mousambi(Sweet Lime)",
               "Onion",
-              "Paddy(Dhan)(Common)",
+              "Pomegranate",
               "Potato",
               "Pumpkin",
               "Rice",
               "Tomato",
-              "Wheat"
+              "Wheat",
+              "White Peas"
+            ],
+            "Charkhari": [
+              "Wheat",
+              "White Peas"
             ]
           }
         },
         "Mainpuri": {
           "markets": {
-            "Mainpuri": [
+            "Ghiraur": [
               "Apple",
               "Arhar Dal(Tur Dal)",
               "Banana",
               "Bengal Gram(Gram)(Whole)",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
               "Bottle gourd",
               "Brinjal",
+              "Cucumbar(Kheera)",
+              "Field Pea",
               "Garlic",
-              "Ginger(Green)",
               "Green Chilli",
-              "Gur(Jaggery)",
-              "Jack Fruit",
-              "Karbuja(Musk Melon)",
               "Lemon",
               "Mango",
               "Mustard",
               "Onion",
-              "Papaya",
-              "Pomegranate",
               "Potato",
               "Pumpkin",
               "Raddish",
               "Rice",
-              "Sponge gourd",
               "Tomato",
-              "Water Melon",
+              "Wheat"
+            ],
+            "Bewar": [
+              "Maize",
+              "Potato",
               "Wheat"
             ]
           }
         },
-        "Mau(Maunathbhanjan)": {
+        "Muzaffarnagar": {
           "markets": {
-            "Doharighat": [
+            "Muzzafarnagar": [
+              "Apple",
+              "Banana - Green",
+              "Bitter gourd",
+              "Bottle gourd",
+              "Brinjal",
+              "Cabbage",
+              "Capsicum",
               "Cauliflower",
+              "Cucumbar(Kheera)",
+              "Garlic",
+              "Ginger(Green)",
+              "Green Chilli",
+              "Karbuja(Musk Melon)",
+              "Lemon",
+              "Mousambi(Sweet Lime)",
+              "Onion",
+              "Papaya",
+              "Pomegranate",
+              "Potato",
+              "Tomato",
+              "Water Melon"
+            ]
+          }
+        },
+        "Pillibhit": {
+          "markets": {
+            "Pilibhit": [
+              "Apple",
+              "Banana",
+              "Bottle gourd",
+              "Brinjal",
+              "Cabbage",
+              "Ginger(Green)",
               "Green Chilli",
               "Lemon",
+              "Mousambi(Sweet Lime)",
               "Onion",
+              "Papaya",
               "Potato",
-              "Rice",
-              "Tomato",
-              "Wheat"
+              "Pumpkin",
+              "Tomato"
             ],
-            "Kopaganj": [
+            "Puranpur": [
               "Apple",
               "Banana",
               "Bhindi(Ladies Finger)",
               "Bitter gourd",
               "Bottle gourd",
               "Brinjal",
-              "Cauliflower",
+              "Cabbage",
               "Cucumbar(Kheera)",
               "Green Chilli",
+              "Karbuja(Musk Melon)",
+              "Lemon",
+              "Mousambi(Sweet Lime)",
+              "Onion",
+              "Papaya",
+              "Potato",
+              "Pumpkin",
+              "Tomato",
+              "Water Melon"
+            ],
+            "Vishalpur": [
               "Onion",
               "Potato",
               "Tomato"
             ]
           }
         },
-        "Mirzapur": {
-          "markets": {
-            "Mirzapur": [
-              "Apple",
-              "Arhar (Tur/Red Gram)(Whole)",
-              "Arhar Dal(Tur Dal)",
-              "Bengal Gram Dal (Chana Dal)",
-              "Bengal Gram(Gram)(Whole)",
-              "Black Gram Dal (Urd Dal)",
-              "Bottle gourd",
-              "Brinjal",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Gur(Jaggery)",
-              "Lemon",
-              "Lentil (Masur)(Whole)",
-              "Mousambi(Sweet Lime)",
-              "Mustard",
-              "Onion",
-              "Papaya",
-              "Peas(Dry)",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Rice",
-              "Tomato",
-              "Wheat"
-            ]
-          }
-        },
-        "Pillibhit": {
-          "markets": {
-            "Puranpur": [
-              "Apple",
-              "Banana",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Rice",
-              "Tomato",
-              "Water Melon",
-              "Wheat"
-            ]
-          }
-        },
         "Prayagraj": {
           "markets": {
-            "Allahabad": [
-              "Banana - Green",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Capsicum",
-              "Colacasia",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Jack Fruit",
-              "Karbuja(Musk Melon)",
-              "Mango",
-              "Mango (Raw-Ripe)",
-              "Onion",
-              "Papaya",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Pumpkin",
-              "Rice",
-              "Sponge gourd",
-              "Tomato",
-              "Water Melon",
-              "Wheat"
-            ],
-            "Jasra": [
-              "Bottle gourd",
-              "Cucumbar(Kheera)",
-              "Onion",
-              "Potato"
-            ],
             "Ajuha": [
               "Onion",
               "Potato",
@@ -5610,20 +1935,18 @@
               "Black Gram (Urd Beans)(Whole)",
               "Bottle gourd",
               "Brinjal",
-              "Cabbage",
-              "Cauliflower",
+              "Colacasia",
               "Cucumbar(Kheera)",
               "Garlic",
               "Ginger(Green)",
-              "Grapes",
               "Green Chilli",
               "Jack Fruit",
               "Karbuja(Musk Melon)",
               "Lemon",
+              "Mango",
               "Mousambi(Sweet Lime)",
               "Mustard Oil",
               "Onion",
-              "Orange",
               "Paddy(Dhan)(Common)",
               "Papaya",
               "Pointed gourd (Parval)",
@@ -5637,70 +1960,14 @@
               "Water Melon",
               "Wheat"
             ],
+            "Bachranwa": [
+              "Onion",
+              "Potato",
+              "Tomato"
+            ],
             "Salon": [
               "Onion",
-              "Paddy(Dhan)(Common)",
               "Potato",
-              "Rice",
-              "Tomato",
-              "Wheat"
-            ],
-            "Jayas": [
-              "Apple",
-              "Banana - Green",
-              "Onion",
-              "Potato",
-              "Tomato",
-              "Wheat"
-            ]
-          }
-        },
-        "Rampur": {
-          "markets": {
-            "Rampur": [
-              "Apple",
-              "Banana",
-              "Banana - Green",
-              "Bengal Gram(Gram)(Whole)",
-              "Bottle gourd",
-              "Green Chilli",
-              "Gur(Jaggery)",
-              "Lemon",
-              "Lentil (Masur)(Whole)",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Pomegranate",
-              "Potato",
-              "Rice",
-              "Tomato",
-              "Wheat"
-            ],
-            "Shahabad": [
-              "Wheat",
-              "Wood"
-            ],
-            "Tanda(Rampur)": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cucumbar(Kheera)",
-              "Jack Fruit",
-              "Pumpkin",
-              "Sponge gourd",
-              "Tomato"
-            ]
-          }
-        },
-        "Saharanpur": {
-          "markets": {
-            "Gangoh": [
-              "Onion",
-              "Potato",
-              "Pumpkin",
-              "Raddish",
-              "Spinach",
               "Tomato"
             ]
           }
@@ -5708,26 +1975,16 @@
         "Sambhal": {
           "markets": {
             "Bhehjoi": [
-              "Bajra(Pearl Millet/Cumbu)",
+              "Maize",
               "Wheat",
               "Wood"
             ],
-            "Muradabad": [
+            "Sambhal": [
               "Apple",
-              "Banana - Green",
-              "Onion",
-              "Potato",
-              "Tomato"
-            ]
-          }
-        },
-        "Sant Kabir Nagar": {
-          "markets": {
-            "Khalilabad": [
-              "Bitter gourd",
               "Bottle gourd",
-              "Green Chilli",
-              "Pointed gourd (Parval)",
+              "Brinjal",
+              "Cauliflower",
+              "Onion",
               "Potato",
               "Tomato"
             ]
@@ -5735,110 +1992,101 @@
         },
         "Shamli": {
           "markets": {
-            "Kairana": [
-              "Bottle gourd",
-              "Brinjal",
-              "Cabbage",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Lemon",
-              "Onion",
-              "Potato",
-              "Raddish",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Thanabhavan": [
+            "Shamli": [
+              "Apple",
+              "Banana - Green",
               "Bhindi(Ladies Finger)",
               "Bitter gourd",
               "Bottle gourd",
               "Brinjal",
+              "Cabbage",
               "Cauliflower",
-              "Chikoos(Sapota)",
               "Cucumbar(Kheera)",
-              "Field Pea",
-              "Ginger(Green)",
+              "Garlic",
               "Green Chilli",
               "Karbuja(Musk Melon)",
-              "Kinnow",
               "Lemon",
-              "Papaya (Raw)",
-              "Peach",
+              "Mousambi(Sweet Lime)",
+              "Onion",
+              "Papaya",
+              "Pomegranate",
               "Potato",
               "Pumpkin",
-              "Raddish",
-              "Sponge gourd",
-              "Tinda",
+              "Ridgeguard(Tori)",
               "Tomato",
-              "Water Melon",
-              "Wheat"
+              "Water Melon"
             ]
           }
         },
         "Sitapur": {
           "markets": {
-            "Hargaon (Laharpur)": [
-              "Banana",
-              "Firewood",
-              "Gur(Jaggery)",
+            "Mehmoodabad": [
+              "Cucumbar(Kheera)",
+              "Lemon",
               "Onion",
               "Potato",
-              "Pumpkin",
-              "Wheat",
-              "Wood"
+              "Pumpkin"
             ],
             "Sitapur": [
-              "Apple",
-              "Arhar Dal(Tur Dal)",
-              "Banana",
-              "Bengal Gram(Gram)(Whole)",
-              "Black Gram Dal (Urd Dal)",
-              "Bottle gourd",
-              "Brinjal",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Gur(Jaggery)",
-              "Lemon",
-              "Lentil (Masur)(Whole)",
-              "Mustard",
-              "Onion",
-              "Paddy(Dhan)(Common)",
-              "Papaya",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Rice",
-              "Tomato",
-              "Wheat",
-              "White Peas"
-            ]
-          }
-        },
-        "Etawah": {
-          "markets": {
-            "Jasvantnagar": [
-              "Onion",
-              "Potato",
-              "Tomato",
-              "Wheat"
-            ]
-          }
-        },
-        "Firozabad": {
-          "markets": {
-            "Firozabad": [
               "Onion",
               "Potato",
               "Tomato"
             ]
           }
         },
-        "Hamirpur": {
+        "Auraiya": {
           "markets": {
-            "Kurara": [
-              "Peas(Dry)",
+            "Dibiapur": [
+              "Bitter gourd",
+              "Brinjal",
+              "Cabbage",
+              "Cauliflower"
+            ]
+          }
+        },
+        "Baghpat": {
+          "markets": {
+            "Bagpat": [
+              "Potato",
+              "Tomato"
+            ],
+            "Baraut": [
+              "Onion",
+              "Potato",
+              "Tomato"
+            ],
+            "Khekda": [
+              "Onion",
+              "Potato"
+            ]
+          }
+        },
+        "Hathras": {
+          "markets": {
+            "Shadabad": [
+              "Onion",
+              "Potato",
+              "Tomato"
+            ]
+          }
+        },
+        "Lucknow": {
+          "markets": {
+            "Banthara": [
+              "Paddy(Dhan)(Common)",
+              "Rice",
               "Wheat"
+            ]
+          }
+        },
+        "Rampur": {
+          "markets": {
+            "Vilaspur": [
+              "Banana",
+              "Mango"
+            ],
+            "Shahabad": [
+              "Wood"
             ]
           }
         }
@@ -5846,37 +2094,18 @@
     },
     "Uttrakhand": {
       "districts": {
-        "Champawat": {
-          "markets": {
-            "Tanakpur": [
-              "Onion"
-            ]
-          }
-        },
         "Dehradoon": {
           "markets": {
-            "Dehradoon": [
-              "Apple",
-              "Banana",
-              "Bottle gourd",
-              "Carrot"
-            ],
             "Vikasnagar": [
+              "Banana",
+              "Bhindi(Ladies Finger)",
+              "Bitter gourd",
               "Bottle gourd",
               "Cauliflower",
               "Cucumbar(Kheera)",
               "Field Pea",
               "Garlic",
-              "Ginger(Green)",
-              "Karbuja(Musk Melon)",
-              "Mango",
-              "Onion",
-              "Papaya",
-              "Potato",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Rishikesh": [
+              "Green Chilli",
               "Onion",
               "Potato",
               "Tomato"
@@ -5885,41 +2114,6 @@
         },
         "Haridwar": {
           "markets": {
-            "Haridwar Union": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Brinjal",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Green Chilli",
-              "Karbuja(Musk Melon)",
-              "Mango",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Potato",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Lakshar": [
-              "Wheat",
-              "Wood"
-            ],
-            "Manglaur": [
-              "Banana",
-              "Bottle gourd",
-              "Chikoos(Sapota)",
-              "Cucumbar(Kheera)",
-              "Karbuja(Musk Melon)",
-              "Onion",
-              "Potato",
-              "Tomato",
-              "Water Melon"
-            ],
             "Roorkee": [
               "Banana",
               "Beans",
@@ -5927,78 +2121,35 @@
               "Bitter gourd",
               "Bottle gourd",
               "Brinjal",
-              "Onion",
-              "Potato",
-              "Tomato"
-            ]
-          }
-        },
-        "Nanital": {
-          "markets": {
-            "Ramnagar": [
-              "Apple",
-              "Banana - Green",
-              "Bitter gourd",
-              "Capsicum",
+              "Carrot",
               "Cauliflower",
               "Cucumbar(Kheera)",
               "Onion",
+              "Potato",
+              "Pumpkin",
+              "Tomato",
+              "Water Melon"
+            ],
+            "Bhagwanpur(Naveen Mandi Sthal)": [
+              "Banana",
+              "Bottle gourd",
+              "Brinjal",
+              "Green Chilli",
+              "Jack Fruit",
               "Papaya",
               "Potato",
+              "Pumpkin",
               "Tomato"
-            ],
-            "Haldwani": [
-              "Banana",
-              "Carrot",
-              "Cauliflower",
-              "Garlic",
-              "Ginger(Green)",
-              "Green Chilli",
-              "Onion",
-              "Orange",
-              "Peas Wet",
-              "Potato",
-              "Water Melon"
             ]
           }
         },
         "UdhamSinghNagar": {
           "markets": {
-            "Gadarpur": [
-              "Rice",
-              "Wheat"
-            ],
-            "Rudrapur": [
-              "Apple",
-              "Banana",
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Bottle gourd",
-              "Cabbage",
-              "Carrot",
-              "Colacasia",
-              "Cucumbar(Kheera)",
-              "Garlic",
-              "Ginger(Dry)",
-              "Karbuja(Musk Melon)",
-              "Lemon",
-              "Mousambi(Sweet Lime)",
-              "Onion",
-              "Papaya",
-              "Pointed gourd (Parval)",
-              "Pomegranate",
-              "Potato",
-              "Pumpkin",
-              "Sponge gourd",
-              "Tinda",
-              "Tomato",
-              "Water Melon"
-            ],
-            "Nanakmatta": [
-              "Wheat"
-            ],
             "Bazpur": [
-              "Wheat"
+              "Rice"
+            ],
+            "Gadarpur": [
+              "Paddy(Dhan)(Common)"
             ]
           }
         }
@@ -6008,24 +2159,22 @@
       "districts": {
         "Bankura": {
           "markets": {
-            "Bankura Sadar": [
+            "Bishnupur(Bankura)": [
+              "Bottle gourd",
               "Brinjal",
-              "Masur Dal",
               "Mustard",
               "Onion",
-              "Paddy(Dhan)(Common)",
               "Potato",
               "Rice",
-              "Sweet Pumpkin"
+              "Wheat"
             ],
-            "Indus(Bankura Sadar)": [
+            "Khatra": [
+              "Bottle gourd",
               "Brinjal",
-              "Green Chilli",
-              "Mustard",
-              "Paddy(Dhan)(Common)",
+              "Cucumbar(Kheera)",
               "Potato",
-              "Rice",
-              "Sweet Pumpkin"
+              "Sweet Pumpkin",
+              "Tomato"
             ]
           }
         },
@@ -6042,14 +2191,6 @@
               "Tomato",
               "Wheat"
             ],
-            "Rampurhat": [
-              "Mustard",
-              "Onion",
-              "Paddy(Dhan)(Common)",
-              "Potato",
-              "Rice",
-              "Wheat"
-            ],
             "Sainthia": [
               "Arhar Dal(Tur Dal)",
               "Brinjal",
@@ -6060,49 +2201,6 @@
               "Rice",
               "Tomato",
               "Wheat"
-            ],
-            "Birbhum": [
-              "Brinjal",
-              "Green Chilli",
-              "Mustard Oil",
-              "Onion",
-              "Paddy(Dhan)(Common)",
-              "Potato",
-              "Rice",
-              "Tomato"
-            ]
-          }
-        },
-        "Dakshin Dinajpur": {
-          "markets": {
-            "Balurghat": [
-              "Bitter gourd",
-              "Brinjal",
-              "Green Chilli",
-              "Onion",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Ridgeguard(Tori)",
-              "Sweet Pumpkin",
-              "Tomato"
-            ],
-            "Gangarampur(Dakshin Dinajpur)": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Cabbage",
-              "Carrot",
-              "Cauliflower",
-              "Cucumbar(Kheera)",
-              "Green Chilli",
-              "Onion",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Raddish",
-              "Ridgeguard(Tori)",
-              "Squash(Chappal Kadoo)",
-              "Sweet Pumpkin",
-              "Tomato"
             ]
           }
         },
@@ -6119,10 +2217,23 @@
             "Karsiyang(Matigara)": [
               "Cabbage",
               "Carrot",
-              "Cauliflower",
               "French Beans (Frasbean)",
               "Onion",
               "Potato",
+              "Squash(Chappal Kadoo)",
+              "Tomato"
+            ],
+            "Siliguri": [
+              "Arhar Dal(Tur Dal)",
+              "Banana",
+              "Black Gram Dal (Urd Dal)",
+              "Ginger(Green)",
+              "Green Chilli",
+              "Green Gram Dal (Moong Dal)",
+              "Masur Dal",
+              "Onion",
+              "Potato",
+              "Rice",
               "Squash(Chappal Kadoo)",
               "Tomato"
             ]
@@ -6130,31 +2241,6 @@
         },
         "Hooghly": {
           "markets": {
-            "Champadanga": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Jute",
-              "Onion",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Rice",
-              "Ridgeguard(Tori)",
-              "Tomato"
-            ],
-            "Kalipur": [
-              "Bhindi(Ladies Finger)",
-              "Bitter gourd",
-              "Brinjal",
-              "Onion",
-              "Paddy(Dhan)(Common)",
-              "Pointed gourd (Parval)",
-              "Potato",
-              "Rice",
-              "Ridgeguard(Tori)",
-              "Sweet Pumpkin",
-              "Tomato"
-            ],
             "Pandua": [
               "Bhindi(Ladies Finger)",
               "Bitter gourd",
@@ -6163,17 +2249,6 @@
               "Potato",
               "Rice",
               "Tomato"
-            ]
-          }
-        },
-        "Jhargram": {
-          "markets": {
-            "Jhargram": [
-              "Brinjal",
-              "Fish",
-              "Mustard Oil",
-              "Potato",
-              "Rice"
             ]
           }
         },
@@ -6212,16 +2287,6 @@
         },
         "Medinipur(W)": {
           "markets": {
-            "Garbeta(Medinipur)": [
-              "Brinjal",
-              "Cabbage",
-              "Green Chilli",
-              "Onion",
-              "Potato",
-              "Rice",
-              "Sweet Pumpkin",
-              "Tomato"
-            ],
             "Ghatal": [
               "Bhindi(Ladies Finger)",
               "Bitter gourd",
@@ -6236,31 +2301,30 @@
               "Potato",
               "Pumpkin",
               "Rice",
-              "Sweet Pumpkin",
               "Tomato"
             ]
           }
         },
-        "Murshidabad": {
+        "Nadia": {
           "markets": {
-            "Kandi": [
+            "Kalyani": [
+              "Brinjal",
+              "Cabbage",
+              "Green Chilli",
+              "Onion",
+              "Potato",
+              "Rice",
+              "Sweet Pumpkin"
+            ],
+            "Karimpur": [
+              "Brinjal",
+              "Green Chilli",
+              "Jute",
               "Mustard",
-              "Paddy(Dhan)(Common)",
+              "Onion",
               "Potato",
               "Rice",
               "Wheat"
-            ],
-            "Jangipur": [
-              "Jute",
-              "Onion",
-              "Paddy(Dhan)(Common)",
-              "Potato",
-              "Rice",
-              "Turmeric"
-            ],
-            "Kasimbazar": [
-              "Jute",
-              "Rice"
             ]
           }
         },
@@ -6277,34 +2341,28 @@
             ]
           }
         },
-        "Paschim Bardhaman": {
+        "Purba Bardhaman": {
           "markets": {
-            "Asansol": [
-              "Arhar Dal(Tur Dal)",
-              "Brinjal",
-              "Ginger(Dry)",
-              "Green Gram Dal (Moong Dal)",
-              "Masur Dal",
-              "Mustard",
+            "Burdwan": [
+              "Cucumbar(Kheera)",
+              "Green Chilli",
+              "Gur(Jaggery)",
               "Onion",
-              "Peas(Dry)",
               "Potato",
               "Rice",
               "Sweet Pumpkin",
-              "Tomato",
-              "Wheat"
+              "Tomato"
             ],
-            "Durgapur": [
+            "Kalna": [
               "Brinjal",
-              "Cabbage",
-              "Masur Dal",
-              "Mustard",
-              "Mustard Oil",
+              "Cucumbar(Kheera)",
+              "Green Chilli",
+              "Jute",
               "Onion",
               "Potato",
               "Rice",
-              "Tomato",
-              "Wheat"
+              "Sweet Pumpkin",
+              "Tomato"
             ]
           }
         },
@@ -6323,17 +2381,29 @@
             ]
           }
         },
-        "Uttar Dinajpur": {
+        "Sounth 24 Parganas": {
           "markets": {
-            "Islampur": [
-              "Jute",
-              "Potato",
+            "Baruipur(Canning)": [
+              "Bhindi(Ladies Finger)",
+              "Bitter gourd",
+              "Brinjal",
+              "Cucumbar(Kheera)",
+              "Green Chilli",
+              "Guava",
+              "Onion",
               "Rice"
-            ],
-            "Raiganj": [
-              "Jute",
-              "Rice",
-              "Wheat"
+            ]
+          }
+        }
+      }
+    },
+    "Madhya Pradesh": {
+      "districts": {
+        "Shajapur": {
+          "markets": {
+            "Kalapipal(F&V)": [
+              "Garlic",
+              "Onion"
             ]
           }
         }
