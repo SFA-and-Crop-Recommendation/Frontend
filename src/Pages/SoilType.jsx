@@ -45,23 +45,21 @@ function SoilType() {
 
         try {
             // Step 1: Upload image to Node.js server
-            const uploadRes = await axios.post("http://localhost:3000/upload", formData, {
+            const response = await axios.post("http://localhost:3000/upload", formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }
             });
 
-            const imageUrl = uploadRes.data.url;
-            setImageUrl(imageUrl);
+            setImageUrl(response.data.url);
 
-            console.log("imageUrl", imageUrl);
+            const result = await axios.post("http://localhost:3000/predictSoil", {
+                imageUrl
+            });
 
-            // // Step 2: Send image URL to FastAPI backend
-            // const predictRes = await axios.post("http://127.0.0.1:8000/predict", {
-            //     image_url: imageUrl
-            // });
+            console.log("Result:", result.data);
+            setPredictions(result.data);
 
-            // setPredictions(predictRes.data.predictions);
         } catch (err) {
             console.error("Error during upload/prediction:", err);
             alert("Something went wrong. Check the console for details.");
@@ -69,7 +67,7 @@ function SoilType() {
             setLoading(false);
         }
     };
-    
+
 
     return (
         <div className="min-h-screen flex flex-col bg-gray-50">
@@ -147,46 +145,36 @@ function SoilType() {
                             </div>
                         ) : predictions ? (
                             <div className="space-y-6">
-                                {imageUrl && (
-                                    <div className="flex justify-center">
-                                        <img
-                                            src={imageUrl}
-                                            alt="Analyzed soil"
-                                            className="max-w-full h-auto rounded-lg border border-gray-200 shadow-sm"
-                                        />
-                                    </div>
-                                )}
 
                                 <div className="bg-gray-50 p-6 rounded-lg">
-                                    <h3 className="text-xl font-semibold text-gray-800 mb-4">Soil Composition</h3>
-                                    <ul className="space-y-3">
-                                        {predictions.map((prediction, index) => (
-                                            <li key={index} className="flex justify-between items-center py-2 border-b border-gray-100">
-                                                <span className="text-gray-700 font-medium capitalize">
-                                                    {prediction.description}
-                                                </span>
-                                                <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
-                                                    {Math.round(prediction.probability * 100)}%
-                                                </span>
-                                            </li>
-                                        ))}
-                                    </ul>
+                                    <h3 className="text-xl font-semibold text-gray-800 mb-4">Soil Type Prediction</h3>
+                                    <div className="space-y-3">
+                                        <div className="flex justify-between items-center py-2">
+                                            <span className="text-gray-700 font-medium">
+                                                Predicted Soil Type:
+                                            </span>
+                                            <span className="capitalize bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
+                                                {predictions.predicted_class.replace(/_/g, ' ')}
+                                            </span>
+                                        </div>
+                                        <div className="flex justify-between items-center py-2">
+                                            <span className="text-gray-700 font-medium">
+                                                Confidence Level:
+                                            </span>
+                                            <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                                                {Math.round(predictions.confidence * 10) / 10}%
+                                            </span>
+                                        </div>
+                                    </div>
                                 </div>
 
+                                {/* Additional information can be added here when available */}
                                 <div className="bg-blue-50 p-6 rounded-lg">
-                                    <h3 className="text-xl font-semibold text-gray-800 mb-3">Recommended Crops</h3>
+                                    <h3 className="text-xl font-semibold text-gray-800 mb-3">Soil Information</h3>
                                     <p className="text-gray-600">
-                                        Based on the soil analysis, the following crops are recommended for cultivation:
+                                        {predictions.predicted_class === 'Lateritic_soil' &&
+                                            "Lateritic soil is rich in iron and aluminum, typically found in hot and wet tropical areas. It's good for crops that thrive in well-drained, acidic conditions."}
                                     </p>
-                                    <div className="mt-3 flex flex-wrap gap-2">
-                                        {predictions[0]?.recommended_crops?.map((crop, i) => (
-                                            <span key={i} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
-                                                {crop}
-                                            </span>
-                                        )) || (
-                                                <span className="text-gray-500">No specific crop recommendations available</span>
-                                            )}
-                                    </div>
                                 </div>
                             </div>
                         ) : (
